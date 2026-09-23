@@ -12,10 +12,10 @@
 | **A3** | Product Architecture — состав и структура продукта | **100%** |
 | **A4** | Product Creation — создание материалов продукта | **100%** |
 | **A5** | Spreadsheet — Excel/Sheets система | **100%** |
-| **A6** | PDF — printable/digital версия | **80%** |
-| **A7** | Design — профессиональный визуальный дизайн | **72%** |
+| **A6** | PDF — printable/digital версия | **85%** |
+| **A7** | Design — профессиональный визуальный дизайн | **80%** |
 | **A8** | Packaging — финальная упаковка | **35%** |
-| **A9** | QA — техническая, визуальная и содержательная проверка | **45%** |
+| **A9** | QA — техническая, визуальная и содержательная проверка | **55%** |
 | **A10** | Store Setup — настройка канала продаж | **0%** |
 | **A11** | Listing — title, description, keywords, previews, FAQ | **0%** |
 | **A12** | Publication — фактическая публикация | **0%** |
@@ -23,7 +23,7 @@
 | **A14** | Iteration — улучшения на основании данных | **0%** |
 | **A15** | Product Factory — масштабирование линейки | **0%** |
 
-## Latest production pass — v2.9
+## Latest production pass — v2.10
 
 После свежего competitor research pass выполнен benchmark pass и затем проведён первый исполняемый QA-проход.
 
@@ -45,6 +45,7 @@
 - production/V2_7_EDGE_CASE_QA_CHECKPOINT.md
 - production/V2_8_MULTIMONTH_SYNTHETIC_QA_CHECKPOINT.md
 - production/V2_9_MOBILE_MULTILINGUAL_QA_CHECKPOINT.md
+- production/V2_10_FINAL_VISUAL_QA_CHECKPOINT.md
 
 ## Research focus — 24.09.2026
 
@@ -52,7 +53,7 @@
 
 ## QA rule
 
-A9: 45% — structural QA, LibreOffice round-trip, PDF integrity, edge-case logic review, multi-month synthetic regression и multilingual/mobile-safe architecture audit выполнены. Physical Android interaction, final visual/package gates ещё не пройдены.
+A9: 55% — structural QA, LibreOffice round-trip, PDF integrity, edge-case logic review, multi-month synthetic regression, multilingual/mobile-safe audit и rendered visual QA выполнены. Physical Android interaction, exhaustive all-sheet visual inspection и final package gate ещё не пройдены.
 
 Обязательны:
 - четыре языка;
