@@ -14,8 +14,8 @@
 | **A5** | Spreadsheet — Excel/Sheets система | **100%** |
 | **A6** | PDF — printable/digital версия | **85%** |
 | **A7** | Design — профессиональный визуальный дизайн | **80%** |
-| **A8** | Packaging — финальная упаковка | **50%** |
-| **A9** | QA — техническая, визуальная и содержательная проверка | **65%** |
+| **A8** | Packaging — финальная упаковка | **65%** |
+| **A9** | QA — техническая, визуальная и содержательная проверка | **70%** |
 | **A10** | Store Setup — настройка канала продаж | **0%** |
 | **A11** | Listing — title, description, keywords, previews, FAQ | **0%** |
 | **A12** | Publication — фактическая публикация | **0%** |
@@ -23,7 +23,7 @@
 | **A14** | Iteration — улучшения на основании данных | **0%** |
 | **A15** | Product Factory — масштабирование линейки | **0%** |
 
-## Latest production pass — v2.11
+## Latest production pass — v2.12
 
 После свежего competitor research pass выполнен benchmark pass и затем проведён первый исполняемый QA-проход.
 
@@ -47,6 +47,7 @@
 - production/V2_9_MOBILE_MULTILINGUAL_QA_CHECKPOINT.md
 - production/V2_10_FINAL_VISUAL_QA_CHECKPOINT.md
 - production/V2_11_SAMPLE_AND_VISUAL_REGRESSION_CHECKPOINT.md
+- production/V2_12_RELEASE_CANDIDATE_PACKAGE_CHECKPOINT.md
 
 ## Research focus — 24.09.2026
 
@@ -54,7 +55,7 @@
 
 ## QA rule
 
-A9: 65% — structural QA, LibreOffice round-trip, PDF integrity, edge-case logic review, multi-month synthetic regression, multilingual/mobile-safe audit, rendered all-sheet visual review и sample-workbook regression выполнены. Physical Android interaction and final package gate remain open.
+A9: 70% — structural QA, LibreOffice round-trip, PDF integrity, edge-case logic review, multi-month synthetic regression, multilingual/mobile-safe audit, rendered all-sheet visual review, sample-workbook regression and RC package integrity test completed. Physical Android interaction and final content/release gate remain open.
 
 Обязательны:
 - четыре языка;
@@ -87,6 +88,6 @@ Channels:
 
 ## Next production sequence
 
-Finish A9 physical Android/content gates → A8 final package → A10/A11 store preparation → A12 publication.
+Finish A9 physical Android/content gates → rebuild final package from approved candidates → A10/A11 store preparation → A12 publication.
 
 Intermediate files are not released. Final commercial ZIP will be delivered only after the full production and QA gates are passed.
