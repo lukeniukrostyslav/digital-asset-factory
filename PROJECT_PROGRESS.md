@@ -15,7 +15,7 @@
 | **A6** | PDF — printable/digital версия | **95%** |
 | **A7** | Design — профессиональный визуальный дизайн | **97%** |
 | **A8** | Packaging — финальная упаковка | **88%** |
-| **A9** | QA — техническая, визуальная и содержательная проверка | **90%** |
+| **A9** | QA — техническая, визуальная и содержательная проверка | **91%** |
 | **A10** | Store Setup — настройка канала продаж | **20%** |
 | **A11** | Listing — title, description, keywords, previews, FAQ | **55%** |
 | **A12** | Publication — фактическая публикация | **0%** |
@@ -31,7 +31,7 @@
 
 ### Текущая последовательность
 
-V2.28 premium dashboard → физическая проверка Excel Android → controlled visual-layer acceptance → финальные print/Letter настройки → финальный commercial package → store/checkout test → publication.
+V2.28 premium dashboard → физическая проверка Excel Android **PASS по открытию/работоспособности** → V2.29 mobile-first visual refinement → controlled visual-layer acceptance → финальные print/Letter настройки → финальный commercial package → store/checkout test → publication.
 
 ### Release Gate
 
