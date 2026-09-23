@@ -13,7 +13,7 @@
 | **A4** | Product Creation — создание материалов продукта | **100%** |
 | **A5** | Spreadsheet — Excel/Sheets система | **100%** |
 | **A6** | PDF — printable/digital версия | **95%** |
-| **A7** | Design — профессиональный визуальный дизайн | **100%** |
+| **A7** | Design — профессиональный визуальный дизайн | **92%** |
 | **A8** | Packaging — финальная упаковка | **88%** |
 | **A9** | QA — техническая, визуальная и содержательная проверка | **84%** |
 | **A10** | Store Setup — настройка канала продаж | **20%** |
@@ -48,6 +48,7 @@
 - User performed the physical Android test and reported the same Excel repair prompt and prolonged 'Подготовка...' state after the first rebuild. LibreOffice-specific extensions were therefore not the only compatibility risk.
 - V2.21 isolation candidates were rebuilt from the pre-LibreOffice release candidates with definedNames and the chart/drawing layer removed while preserving 15 sheets, formulas, data validation and tables.
 - V2.22 deep rebuild generated the compatibility core directly with XlsxWriter, removing desktop-risk OOXML layers while preserving the connected workbook logic and cached verified results.
+- V2.23 competitor/mobile UX research converted current competitor patterns and the real Android screenshots into concrete multilingual, mobile-layout and compatibility-layer requirements. This does not close A7/A9.
 - Internal ZIP/XML, openpyxl and LibreOffice round-trip checks passed for both Blank and Sample.
 - Previous audit correction: definedNames were present in the prior candidate; the earlier report of zero was incorrect.
 
@@ -77,6 +78,7 @@
 - production/V2_20_ANDROID_COMPATIBILITY_REBUILD.md
 - production/V2_21_ANDROID_COMPATIBILITY_ISOLATION.md
 - production/V2_22_ANDROID_DEEP_REBUILD_XLSXWRITER.md
+- research/V2_23_COMPETITOR_MOBILE_UX_CHECKPOINT.md
 
 ## Research focus — 24.09.2026
 
@@ -117,6 +119,6 @@ Channels:
 
 ## Next production sequence
 
-Test V2.22 deep-rebuild Android candidate → if it opens, reintroduce visual layers one at a time with regression checks → close A9 → rebuild final commercial package → store/checkout test → publication.
+Test V2.22 deep-rebuild Android candidate → complete full multilingual audit and mobile UX remediation → if the Android core opens, reintroduce visual layers one at a time with regression checks → close A7/A9 only after evidence → rebuild final commercial package → store/checkout test → publication.
 
 Intermediate files are not released. Final commercial ZIP will be delivered only after the full production and QA gates are passed.
