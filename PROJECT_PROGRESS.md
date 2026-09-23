@@ -10,9 +10,9 @@
 | **A1** | Market Research — исследование рынка и конкурентов | **100%** |
 | **A2** | Product Selection — выбор и коммерческая валидация первой ниши | **100%** |
 | **A3** | Product Architecture — состав и структура продукта | **100%** |
-| **A4** | Product Creation — создание материалов продукта | **97%** |
+| **A4** | Product Creation — создание материалов продукта | **100%** |
 | **A5** | Spreadsheet — Excel/Sheets система | **100%** |
-| **A6** | PDF — printable/digital версия | **60%** |
+| **A6** | PDF — printable/digital версия | **80%** |
 | **A7** | Design — профессиональный визуальный дизайн | **68%** |
 | **A8** | Packaging — финальная упаковка | **35%** |
 | **A9** | QA — техническая, визуальная и содержательная проверка | **0%** |
@@ -23,9 +23,9 @@
 | **A14** | Iteration — улучшения на основании данных | **0%** |
 | **A15** | Product Factory — масштабирование линейки | **0%** |
 
-## Latest production pass — v2.2
+## Latest production pass — v2.3
 
-После свежего competitor research pass выполнен отдельный visual/UX refinement pass.
+После свежего competitor research pass выполнен отдельный visual/UX refinement pass и подготовлен полный комплект финальных материалов для последующего QA.
 
 ### Реально завершено
 - Добавлен Budget Remaining KPI.
@@ -38,6 +38,7 @@
 ## Новые checkpoints
 - production/V2_1_DASHBOARD_INSIGHTS_CHECKPOINT.md
 - production/V2_2_DESIGN_REFINEMENT_CHECKPOINT.md
+- production/V2_3_FINAL_MATERIALS_DRAFT_CHECKPOINT.md
 
 ## Research focus — 24.09.2026
 
@@ -78,6 +79,6 @@ Channels:
 
 ## Next production sequence
 
-Finish A7 visual refinement → finish A6 final materials → A9 full QA → A8 final package → A10/A11 store preparation → A12 publication.
+Finish A7 visual refinement → A9 full QA → A8 final package → A10/A11 store preparation → A12 publication.
 
 Intermediate files are not released. Final commercial ZIP will be delivered only after the full production and QA gates are passed.
