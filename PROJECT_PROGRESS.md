@@ -13,9 +13,9 @@
 | **A4** | Product Creation — создание материалов продукта | **100%** |
 | **A5** | Spreadsheet — Excel/Sheets система | **100%** |
 | **A6** | PDF — printable/digital версия | **95%** |
-| **A7** | Design — профессиональный визуальный дизайн | **96%** |
+| **A7** | Design — профессиональный визуальный дизайн | **97%** |
 | **A8** | Packaging — финальная упаковка | **88%** |
-| **A9** | QA — техническая, визуальная и содержательная проверка | **89%** |
+| **A9** | QA — техническая, визуальная и содержательная проверка | **90%** |
 | **A10** | Store Setup — настройка канала продаж | **20%** |
 | **A11** | Listing — title, description, keywords, previews, FAQ | **55%** |
 | **A12** | Publication — фактическая публикация | **0%** |
@@ -27,11 +27,11 @@
 
 **PRIORITY #1 — Personal Money Command Center**
 
-Не начинаем следующий продукт до прохождения release gate текущего продукта.
+Следующий продукт не запускается до прохождения release gate текущего продукта.
 
 ### Текущая последовательность
 
-V2.26 Android-safe premium UX → физическая проверка Excel Android → controlled visual-layer acceptance → финальные print/Letter настройки → финальный commercial package → store/checkout test → publication.
+V2.28 premium dashboard → физическая проверка Excel Android → controlled visual-layer acceptance → финальные print/Letter настройки → финальный commercial package → store/checkout test → publication.
 
 ### Release Gate
 
@@ -47,113 +47,40 @@ V2.26 Android-safe premium UX → физическая проверка Excel An
 10. Checkout test
 11. Publication
 
-## Что уже выполнено в текущем продукте
+## Последний checkpoint
 
-- Market research и competitor benchmark.
-- Product architecture.
-- Connected Excel workbook.
-- 15-sheet system.
-- Budget, Transactions, Debt, Savings, Annual Review.
-- Bills / recurring payments.
-- Net Worth.
-- Accounts.
-- Spending Insights.
-- Cash Flow.
-- Dashboard KPI layer.
-- Budget Remaining.
-- Savings Rate.
-- English / Russian / Italian / Spanish interface.
-- Blank + Sample candidates.
-- Formula hardening.
-- LibreOffice round-trip.
-- OOXML compatibility audits.
-- Premium UX refinement V2.26.
-- Print/visual QA findings.
-- Payhip setup checklist.
-- Commercial listing master.
-- Multiple Android compatibility rebuilds.
-- Physical Android acceptance remains the unresolved hard gate.
+**V2.28 — PREMIUM DASHBOARD / ANDROID TEST**
 
-## Future Product Queue
+GitHub checkpoint:
+`production/V2_28_PREMIUM_DASHBOARD_ANDROID_TEST.md`
 
-Подробная очередь сохранена в **ROADMAP_FUTURE_PRODUCTS.md**.
+Commit:
+`50f3097b519a3134a881c9883a767e9a957f6629`
 
-1. Personal Money Command Center — CURRENT
-2. Personal Productivity Command Center
-3. Freelancer Command Center
-4. Small Business Command Center
-5. Job Search Command Center
-6. Goal & Habit Command Center
-7. Home Management Command Center
-8. AI Productivity Prompt Pack
-9. Command Center Bundle
+Локальный Android-test файл:
+`Personal_Money_Command_Center_PREMIUM_V2_28_PREMIUM_ANDROID_TEST.xlsx`
 
-## Factory Blocks
+SHA-256:
+`ba39f91827e16758b0d4a7449c62e400f522a6b8139aa6996a32ef77ca910c1c`
 
-| Блок | Назначение | Стартовый статус |
-|---|---|---:|
-| F0 | Product brief + target customer + use case | 0% |
-| F1 | Current market & competitor research | 0% |
-| F2 | Product positioning & scope | 0% |
-| F3 | Product architecture | 0% |
-| F4 | Spreadsheet / digital system build | 0% |
-| F5 | PDF / printable materials | 0% |
-| F6 | AI prompt pack / supporting materials | 0% |
-| F7 | UX/UI & visual design | 0% |
-| F8 | Localization / language system | 0% |
-| F9 | Technical QA | 0% |
-| F10 | Mobile / Android QA where relevant | 0% |
-| F11 | Content & commercial QA | 0% |
-| F12 | Packaging / blank / sample / guide | 0% |
-| F13 | Listing / storefront assets | 0% |
-| F14 | Store / checkout test | 0% |
-| F15 | Publication | 0% |
-| F16 | Post-launch metrics | 0% |
-| F17 | Iteration / v1.1 | 0% |
-| F18 | Cross-sell / bundle integration | 0% |
+### V2.28 фактически выполнено
+
+- Dashboard переразложен в A:H.
+- Убран главный визуальный дефект V2.27 со смещением dashboard далеко вправо.
+- Добавлены крупный title/header и period/language controls.
+- KPI организованы в 8 визуальных карточек.
+- Добавлен Monthly Review блок.
+- Сохранён Android-safe language dropdown.
+- Выполнен LibreOffice round-trip.
+- Formula error literals: 0.
+- External links: 0.
+- Macros/VBA: 0.
+- OOXML extLst: 0 после очистки LibreOffice extension.
+- Sample cached metrics сохранены: Income 3000, Expenses 2000, Net Cash Flow 1000, Savings Rate 33.33%, Debt 1200, Savings 500, Net Worth 1800, Budget Remaining 0.
+- Physical Android acceptance пока не засчитан.
+
+## Важное правило
 
 Проценты не увеличиваются без фактического выполнения и сохранённого checkpoint.
-
-## Commercial Strategy
-
-### Markets
-1. USA
-2. Canada
-3. UK
-4. Australia
-5. other English-speaking markets later
-
-### Current product pricing plan
-- Launch: $9.99 USD
-- Planned regular: $12.99 USD
-
-### Planned channels
-- Payhip Free
-- Gumroad
-- Etsy later
-
-Перед каждой публикацией проверяются актуальные условия площадки и доступность выплат из фактической страны/аккаунта.
-
-### Zero-budget principle
-
-Не закладывать обязательные ежемесячные расходы на старте. Предпочитать бесплатные/безабонентские каналы, где доступны, и модели с комиссией при продаже.
-
-VPN не является частью рабочего процесса.
-
-## Quality Rule
-
-Цель — не количество файлов, а повторяемая коммерческая система качества.
-
-Каждый следующий продукт должен иметь:
-- понятную задачу;
-- профессиональную структуру;
-- onboarding;
-- blank + sample;
-- техническую QA;
-- мобильную QA, если заявляется mobile use;
-- коммерческое описание без неподтверждённых обещаний;
-- лицензию;
-- privacy/disclaimer boundaries;
-- финальную упаковку.
 
 Intermediate files are not released as commercial products. Final commercial package is delivered only after all release gates are passed.
