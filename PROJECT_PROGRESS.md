@@ -14,16 +14,16 @@
 | **A5** | Spreadsheet — Excel/Sheets система | **100%** |
 | **A6** | PDF — printable/digital версия | **95%** |
 | **A7** | Design — профессиональный визуальный дизайн | **80%** |
-| **A8** | Packaging — финальная упаковка | **92%** |
+| **A8** | Packaging — финальная упаковка | **93%** |
 | **A9** | QA — техническая, визуальная и содержательная проверка | **90%** |
-| **A10** | Store Setup — настройка канала продаж | **0%** |
-| **A11** | Listing — title, description, keywords, previews, FAQ | **0%** |
+| **A10** | Store Setup — настройка канала продаж | **20%** |
+| **A11** | Listing — title, description, keywords, previews, FAQ | **55%** |
 | **A12** | Publication — фактическая публикация | **0%** |
 | **A13** | Market Test — первые реальные данные продаж | **0%** |
 | **A14** | Iteration — улучшения на основании данных | **0%** |
 | **A15** | Product Factory — масштабирование линейки | **0%** |
 
-## Latest production pass — v2.16
+## Latest production pass — v2.17
 
 После свежего competitor research pass выполнен benchmark pass, затем повторный исполняемый QA-проход выявил реальные Cash Flow defects; оба release-candidate workbook были исправлены и повторно проверены.
 
@@ -41,6 +41,8 @@
 - Both workbooks scanned for external URLs and competitor-brand leakage: 0 URLs and 0 competitor-brand mentions.
 - Final candidate ZIP revalidated after extraction and LibreOffice round-trip.
 - V2.16 workbook technical audit: both candidates have 0 cached error cells, 0 external URLs, 0 external-workbook references, no macros and no defined names.
+- A11 listing master drafted with title, short/full description, package contents, factual feature list, keywords and FAQ.
+- A10 Payhip setup checklist prepared from current Payhip documentation; no actual store publication is claimed.
 
 ## Новые checkpoints
 - production/V2_1_DASHBOARD_INSIGHTS_CHECKPOINT.md
@@ -61,6 +63,8 @@
 - production/V2_15_RELEASE_CONTENT_AND_PACKAGE_AUDIT.md
 - research/V2_16_CURRENT_COMPETITOR_BENCHMARK.md
 - production/V2_16_WORKBOOK_TECHNICAL_AUDIT.md
+- commercial/A11_LISTING_MASTER_v1.0.md
+- commercial/A10_PAYHIP_STORE_SETUP_CHECKLIST.md
 
 ## Research focus — 24.09.2026
 
@@ -101,6 +105,6 @@ Channels:
 
 ## Next production sequence
 
-Finish A9 physical Android gate → rebuild final package from the verified candidates → complete A10/A11 store preparation → A12 publication.
+Finish A9 physical Android gate → rebuild final package → execute Payhip store setup and checkout test → finalize listing assets → A12 publication.
 
 Intermediate files are not released. Final commercial ZIP will be delivered only after the full production and QA gates are passed.
