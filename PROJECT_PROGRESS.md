@@ -14,8 +14,8 @@
 | **A5** | Spreadsheet — Excel/Sheets система | **100%** |
 | **A6** | PDF — printable/digital версия | **95%** |
 | **A7** | Design — профессиональный визуальный дизайн | **100%** |
-| **A8** | Packaging — финальная упаковка | **90%** |
-| **A9** | QA — техническая, визуальная и содержательная проверка | **82%** |
+| **A8** | Packaging — финальная упаковка | **88%** |
+| **A9** | QA — техническая, визуальная и содержательная проверка | **84%** |
 | **A10** | Store Setup — настройка канала продаж | **20%** |
 | **A11** | Listing — title, description, keywords, previews, FAQ | **55%** |
 | **A12** | Publication — фактическая публикация | **0%** |
@@ -23,7 +23,7 @@
 | **A14** | Iteration — улучшения на основании данных | **0%** |
 | **A15** | Product Factory — масштабирование линейки | **0%** |
 
-## Latest production pass — v2.21
+## Latest production pass — v2.22
 
 После свежего competitor research pass выполнен benchmark pass, затем повторный исполняемый QA-проход выявил реальные Cash Flow defects; оба release-candidate workbook были исправлены и повторно проверены.
 
@@ -47,6 +47,8 @@
 - V2.19 design finalization completed: design system, dashboard hierarchy, input/calculated distinction, mobile-readable layout, print settings, multilingual presentation and rendered visual review are treated as complete for v1.0.
 - User performed the physical Android test and reported the same Excel repair prompt and prolonged 'Подготовка...' state after the first rebuild. LibreOffice-specific extensions were therefore not the only compatibility risk.
 - V2.21 isolation candidates were rebuilt from the pre-LibreOffice release candidates with definedNames and the chart/drawing layer removed while preserving 15 sheets, formulas, data validation and tables.
+- V2.22 deep rebuild generated the compatibility core directly with XlsxWriter, removing desktop-risk OOXML layers while preserving the connected workbook logic and cached verified results.
+- Internal ZIP/XML, openpyxl and LibreOffice round-trip checks passed for both Blank and Sample.
 - Previous audit correction: definedNames were present in the prior candidate; the earlier report of zero was incorrect.
 
 ## Новые checkpoints
@@ -74,6 +76,7 @@
 - production/V2_19_DESIGN_100_FINALIZATION_CHECKPOINT.md
 - production/V2_20_ANDROID_COMPATIBILITY_REBUILD.md
 - production/V2_21_ANDROID_COMPATIBILITY_ISOLATION.md
+- production/V2_22_ANDROID_DEEP_REBUILD_XLSXWRITER.md
 
 ## Research focus — 24.09.2026
 
@@ -81,7 +84,7 @@
 
 ## QA rule
 
-A9: 82% — all prior structural/visual/content checks plus repeated formula hardening, zero-error recalculation, PDF content-risk audit, external-URL scan, competitor-brand scan, workbook technical audit and final release-gate preparation. Physical Android interaction remains the final unresolved QA gate.
+A9: 84% — all prior structural/visual/content checks plus repeated formula hardening, zero-error recalculation, PDF content-risk audit, external-URL scan, competitor-brand scan, workbook technical audit and final release-gate preparation. Physical Android interaction remains the final unresolved QA gate.
 
 Обязательны:
 - четыре языка;
@@ -114,6 +117,6 @@ Channels:
 
 ## Next production sequence
 
-Test V2.21 Android isolation candidate → identify remaining incompatible OOXML feature if failure persists → rebuild compatible production candidate → restore nonessential visual features only after Android acceptance → close A9 → final commercial package.
+Test V2.22 deep-rebuild Android candidate → if it opens, reintroduce visual layers one at a time with regression checks → close A9 → rebuild final commercial package → store/checkout test → publication.
 
 Intermediate files are not released. Final commercial ZIP will be delivered only after the full production and QA gates are passed.
