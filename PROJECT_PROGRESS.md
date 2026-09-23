@@ -51,6 +51,7 @@
 - V2.23 competitor/mobile UX research converted current competitor patterns and the real Android screenshots into concrete multilingual, mobile-layout and compatibility-layer requirements. This does not close A7/A9.
 - V2.24 converted the multilingual findings into an implementation specification covering all user-facing sheets, stable internal calculation values, translated display labels, mobile header constraints and four-language acceptance testing.
 - V2.24 implementation pass rebuilt the compatibility core directly with XlsxWriter, expanded the visible localization layer, separated translated category display from stable calculation identifiers, and passed blank/sample four-language regression plus LibreOffice round-trip checks with 0 formula-error literals. Physical Android acceptance remains open.
+- V2.24 implementation pass rebuilt the compatibility core directly with XlsxWriter, expanded the visible localization layer, separated translated category display from stable calculation identifiers, and passed blank/sample four-language regression plus LibreOffice round-trip checks with 0 formula-error literals. Physical Android acceptance remains open.
 - Internal ZIP/XML, openpyxl and LibreOffice round-trip checks passed for both Blank and Sample.
 - Previous audit correction: definedNames were present in the prior candidate; the earlier report of zero was incorrect.
 
@@ -83,6 +84,7 @@
 - research/V2_23_COMPETITOR_MOBILE_UX_CHECKPOINT.md
 - production/V2_23_MULTILINGUAL_UI_AUDIT.md
 - production/V2_24_MULTILINGUAL_SYSTEM_IMPLEMENTATION_SPEC.md
+- production/V2_24_MULTILINGUAL_IMPLEMENTATION_RESULTS.md
 - production/V2_24_MULTILINGUAL_IMPLEMENTATION_RESULTS.md
 
 ## Research focus — 24.09.2026
