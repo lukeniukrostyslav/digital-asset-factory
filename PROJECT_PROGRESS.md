@@ -1,6 +1,6 @@
 # PROJECT PROGRESS
 
-Дата контрольной точки: 23.09.2026
+Дата контрольной точки: 24.09.2026
 
 ## Все блоки
 
@@ -10,11 +10,11 @@
 | **A1** | Market Research — исследование рынка и конкурентов | **100%** |
 | **A2** | Product Selection — выбор и коммерческая валидация первой ниши | **100%** |
 | **A3** | Product Architecture — состав и структура продукта | **100%** |
-| **A4** | Product Creation — создание материалов продукта | **70%** |
-| **A5** | Spreadsheet — Excel/Sheets система | **75%** |
+| **A4** | Product Creation — создание материалов продукта | **75%** |
+| **A5** | Spreadsheet — Excel/Sheets система | **80%** |
 | **A6** | PDF — printable/digital версия | **60%** |
 | **A7** | Design — профессиональный визуальный дизайн | **0%** |
-| **A8** | Packaging — финальная упаковка файлов | **25%** |
+| **A8** | Packaging — финальная упаковка | **25%** |
 | **A9** | QA — техническая, визуальная и содержательная проверка | **0%** |
 | **A10** | Store Setup — настройка канала продаж | **0%** |
 | **A11** | Listing — title, description, keywords, previews, FAQ | **0%** |
@@ -23,22 +23,28 @@
 | **A14** | Iteration — улучшения на основании данных | **0%** |
 | **A15** | Product Factory — масштабирование линейки | **0%** |
 
-## Production checkpoint
+## Новый production checkpoint
 
-Создан production checkpoint:
-production/A4_PRODUCTION_CHECKPOINT_01.md
+Добавлен первый реальный multilingual implementation pass.
 
-В production pass фактически выполнено:
-- доработан Excel production candidate;
-- добавлены/обновлены dashboard and transaction totals;
-- улучшено единое оформление workbook;
-- создан Quick Start Guide;
-- создан AI Prompt Pack;
-- создан License & Use;
-- обновлён README;
-- собран production ZIP candidate.
+Реализовано:
+- English как язык по умолчанию;
+- Spanish / Español;
+- Italian / Italiano;
+- Russian / Русский;
+- выпадающий Language Selector на Dashboard;
+- скрытый защищённый Translations layer;
+- локализованный заголовок Dashboard;
+- пользовательские финансовые данные не переводятся и не изменяются.
 
-A6 не повышен, поскольку новый production pass PDF ещё не выполнен.
+GitHub checkpoint:
+production/MULTILINGUAL_EXCEL_IMPLEMENTATION_01.md
+
+Commit: 921091b19f2a9f72cda5d116a05c0ea0f69e77ad
+
+## Ограничение текущего checkpoint
+
+Это только первый multilingual pass. До публикации необходимо локализовать остальные пользовательские подписи во всех листах и провести полный визуальный/формульный QA для четырёх языков.
 
 ## Коммерческое решение
 
@@ -49,16 +55,16 @@ A6 не повышен, поскольку новый production pass PDF ещё
 2. Канада — второй.
 3. Великобритания — третий.
 4. Австралия — четвёртый.
-5. Другие англоязычные рынки — последующее расширение.
+5. Другие англоязычные рынки — позже.
 
 Цена:
 - Launch: $9.99 USD.
 - Planned regular: $12.99 USD.
 
 Каналы:
-- Payhip Free — основной старт.
+- Payhip Free — основной.
 - Gumroad — дополнительный.
-- Etsy — последующий marketplace-тест.
+- Etsy — позже.
 
 ## Правило процентов
 
@@ -66,4 +72,4 @@ A6 не повышен, поскольку новый production pass PDF ещё
 
 ## Следующий рабочий этап
 
-A7 — Design system и визуальная доводка production candidate, после чего A9 QA.
+Продолжить мультиязычную локализацию остальных листов, затем A7 Design и A9 QA.
