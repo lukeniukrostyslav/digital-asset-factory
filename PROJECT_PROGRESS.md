@@ -10,10 +10,10 @@
 | **A1** | Market Research — исследование рынка и конкурентов | **100%** |
 | **A2** | Product Selection — выбор и коммерческая валидация первой ниши | **100%** |
 | **A3** | Product Architecture — состав и структура продукта | **100%** |
-| **A4** | Product Creation — создание материалов продукта | **95%** |
+| **A4** | Product Creation — создание материалов продукта | **97%** |
 | **A5** | Spreadsheet — Excel/Sheets система | **99%** |
 | **A6** | PDF — printable/digital версия | **60%** |
-| **A7** | Design — профессиональный визуальный дизайн | **45%** |
+| **A7** | Design — профессиональный визуальный дизайн | **50%** |
 | **A8** | Packaging — финальная упаковка | **35%** |
 | **A9** | QA — техническая, визуальная и содержательная проверка | **0%** |
 | **A10** | Store Setup — настройка канала продаж | **0%** |
@@ -23,39 +23,30 @@
 | **A14** | Iteration — улучшения на основании данных | **0%** |
 | **A15** | Product Factory — масштабирование линейки | **0%** |
 
-## Latest production pass — v1.7
+## Latest production pass — v1.8
 
-После дополнительного конкурентного research pass выполнен connected-dashboard refinement.
+Выполнен дополнительный competitor research pass и исправлена связность нескольких ключевых модулей.
 
-### Что реально завершено
-- Исправлены формулы итогов Transactions: доходы и расходы теперь берутся из Amount по Type.
-- Dashboard Debt Balance связан с Debt Tracker.
-- Dashboard Savings связан с Savings Goals.
-- Dashboard Net Worth рассчитывается как Assets − Liabilities.
-- Bills this month и Unpaid bills учитывают выбранные Month + Year.
-- В Setup добавлен редактируемый Year.
-- Cash Flow теперь автоматически получает месячные Income / Expenses из Transactions по дате и типу.
-- Dashboard system insights сохранены.
-- Выполнен синтетический тест через LibreOffice с январскими тестовыми данными.
+### Реально завершено
+- Dashboard KPI hierarchy уточнена.
+- Budget Actual теперь рассчитывается из Transactions по выбранному Month + Year.
+- Spending Insights теперь действительно показывает выбранный месяц, а не весь исторический массив.
+- Annual Review теперь автоматически получает Income / Expenses / Net Savings / Debt Paid из Transactions.
+- Month matching вынесен в Lists для более стабильной совместимости Excel/LibreOffice.
+- Bills dashboard formulas переведены на тот же источник месяцев.
+- Выполнен синтетический multi-month QA через LibreOffice.
 
 ## Новые checkpoints
-- research/COMPETITOR_RESEARCH_CHECKPOINT_03.md
-- production/A5_A7_V1_7_CONNECTED_DASHBOARD_CHECKPOINT.md
+- research/COMPETITOR_RESEARCH_CHECKPOINT_04.md
+- production/A4_A5_A7_V1_8_CONNECTED_SYSTEM_CHECKPOINT.md
 
-## Конкурентный research — актуальный вывод
+## Fresh research focus
 
-Современные продукты категории конкурируют не одной таблицей бюджета, а связанной системой: transactions + budget + bills + savings + debt + net worth + cash flow + dashboard/insights. Отдельно заметны критерии setup ease, feature depth, visual design, customization, mobile usability и value.
-
-Источники research за 24.09.2026:
-- FinancialAha comparison
-- Tools Without Code personal finance OS
-- Tidy Ledgers current Gumroad product
-- Tiller Excel finance templates
-- Etsy budget spreadsheet marketplace signals
+Актуальные 2026 сравнения категории подтверждают важность setup ease, feature depth, visual design, customization, mobile usability и value. Современные связанные шаблоны также делают dashboard единой точкой обзора, питаемой транзакциями и настройками.
 
 ## QA rule
 
-A9 остаётся 0% до отдельного полного QA-прохода. Автоматический расчёт отдельных формул не считается финальной QA.
+A9 остаётся 0% до отдельного полного QA-прохода.
 
 Обязательны:
 - четыре языка;
@@ -88,6 +79,6 @@ Channels:
 
 ## Next production sequence
 
-A7 visual refinement → A6 final PDF materials → A9 full QA → A8 final package → A10/A11 store preparation → A12 publication.
+Finish A7 visual refinement → finish A6 final materials → A9 full QA → A8 final package → A10/A11 store preparation → A12 publication.
 
-Intermediate files are not released to the user. Final commercial ZIP will be delivered only after production and QA are complete.
+Intermediate files are not released. Final commercial ZIP will be delivered only after the full production and QA gates are passed.
