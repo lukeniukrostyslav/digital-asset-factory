@@ -10,11 +10,11 @@
 | **A1** | Market Research — исследование рынка и конкурентов | **100%** |
 | **A2** | Product Selection — выбор и коммерческая валидация первой ниши | **100%** |
 | **A3** | Product Architecture — состав и структура продукта | **100%** |
-| **A4** | Product Creation — создание материалов продукта | **90%** |
-| **A5** | Spreadsheet — Excel/Sheets система | **95%** |
+| **A4** | Product Creation — создание материалов продукта | **93%** |
+| **A5** | Spreadsheet — Excel/Sheets система | **98%** |
 | **A6** | PDF — printable/digital версия | **60%** |
-| **A7** | Design — профессиональный визуальный дизайн | **25%** |
-| **A8** | Packaging — финальная упаковка | **30%** |
+| **A7** | Design — профессиональный визуальный дизайн | **35%** |
+| **A8** | Packaging — финальная упаковка | **32%** |
 | **A9** | QA — техническая, визуальная и содержательная проверка | **0%** |
 | **A10** | Store Setup — настройка канала продаж | **0%** |
 | **A11** | Listing — title, description, keywords, previews, FAQ | **0%** |
@@ -25,39 +25,52 @@
 
 ## Production update — 24.09.2026
 
-После свежего конкурентного сканирования и первого профессионального design pass production candidate расширен.
+После нового конкурентного research pass и system/design refinement production candidate расширен.
 
-### Production versions
+### v1.6 System Pass
 
-v1.4:
-Personal_Money_Command_Center_v1.4_ENHANCED.xlsx
+Создан production candidate:
+Personal_Money_Command_Center_v1.6_SYSTEM_PASS.xlsx
 
-v1.5:
-Personal_Money_Command_Center_v1.5_DESIGN_PASS.xlsx
+Добавлены:
+- Accounts — единый источник текущих балансов;
+- Spending Insights — расходы по категориям и доля расходов;
+- Cash Flow — годовой обзор income / expenses / net cash flow;
+- Dashboard system insights;
+- Top spending category;
+- Total account balances;
+- Accounts included in net worth.
 
-### Новый design pass
+Существующие модули сохранены:
+- Start Here;
+- Dashboard;
+- Budget;
+- Transactions;
+- Bills;
+- Debt Tracker;
+- Savings Goals;
+- Net Worth;
+- Annual Review;
+- multilingual layer;
+- Setup / privacy.
+
+## Fresh competitor research
 
 Создан:
-production/DESIGN_PASS_01.md
+research/COMPETITOR_RESEARCH_CHECKPOINT_02.md
 
-В v1.5 добавлены:
-- Start Here onboarding;
-- единая визуальная иерархия заголовков;
-- более читаемые строки;
-- выделение пользовательских input areas;
-- улучшенная Dashboard KPI подача;
-- Planned vs Actual chart;
-- сохранена мультиязычная архитектура;
-- сохранены privacy boundaries и финансовые модули.
+Исследование 24.09.2026 подтверждает актуальный рыночный паттерн connected personal-finance spreadsheet:
+budget + transactions + spending analysis + debt + savings + bills + account balances + net worth + cash flow + dashboard/insights.
 
-## Research checkpoint
+Особенно важный UX-паттерн: сильные системы стараются свести ввод данных к минимальному числу мест и строить остальные представления из общей базы данных.
 
-Обновлён:
-research/COMPETITOR_SCAN_2026_09_24.md
+## QA rule
 
-Свежий обзор подтвердил рыночный паттерн: сильные spreadsheet-системы объединяют budget, transactions, debt, savings, net worth, annual views, dashboards и bills. Это поддерживает направление Personal Money Command Center как единой connected system.
+A9 остаётся 0% до отдельного полного QA-прохода. Автоматический расчёт отдельных формул не считается финальной QA.
 
-## Current commercial assumptions
+Финальный Android Excel test остаётся обязательным.
+
+## Commercial assumptions
 
 Product: Personal Money Command Center
 
@@ -77,10 +90,6 @@ Channels:
 - Gumroad
 - Etsy later
 
-## QA rule
-
-No publication percentage will be raised until the relevant artifact is actually tested. Final Android Excel behavior remains part of A9.
-
 ## Next
 
-Продолжить A7 visual design → затем A9 full QA → A8 final packaging → A10/A11 store preparation.
+Продолжить A7 visual/design refinement → complete A6 PDF → затем A9 full QA → A8 final packaging → A10/A11 store preparation.
