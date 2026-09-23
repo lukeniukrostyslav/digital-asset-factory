@@ -10,11 +10,11 @@
 | **A1** | Market Research — исследование рынка и конкурентов | **100%** |
 | **A2** | Product Selection — выбор и коммерческая валидация первой ниши | **100%** |
 | **A3** | Product Architecture — состав и структура продукта | **100%** |
-| **A4** | Product Creation — создание материалов продукта | **50%** |
-| **A5** | Spreadsheet — Excel/Sheets система | **60%** |
+| **A4** | Product Creation — создание материалов продукта | **70%** |
+| **A5** | Spreadsheet — Excel/Sheets система | **75%** |
 | **A6** | PDF — printable/digital версия | **60%** |
 | **A7** | Design — профессиональный визуальный дизайн | **0%** |
-| **A8** | Packaging — финальная упаковка файлов | **10%** |
+| **A8** | Packaging — финальная упаковка файлов | **25%** |
 | **A9** | QA — техническая, визуальная и содержательная проверка | **0%** |
 | **A10** | Store Setup — настройка канала продаж | **0%** |
 | **A11** | Listing — title, description, keywords, previews, FAQ | **0%** |
@@ -23,13 +23,22 @@
 | **A14** | Iteration — улучшения на основании данных | **0%** |
 | **A15** | Product Factory — масштабирование линейки | **0%** |
 
-## Контрольная точка
+## Production checkpoint
 
-A3 завершён на 100% и сохранён в GitHub.
+Создан production checkpoint:
+production/A4_PRODUCTION_CHECKPOINT_01.md
 
-A4 остаётся 50%: планирование производства подтверждено, но процент не повышается без фактического создания и проверки новых production-файлов.
+В production pass фактически выполнено:
+- доработан Excel production candidate;
+- добавлены/обновлены dashboard and transaction totals;
+- улучшено единое оформление workbook;
+- создан Quick Start Guide;
+- создан AI Prompt Pack;
+- создан License & Use;
+- обновлён README;
+- собран production ZIP candidate.
 
-A5 и A6 остаются на текущих значениях до следующего подтверждённого production checkpoint.
+A6 не повышен, поскольку новый production pass PDF ещё не выполнен.
 
 ## Коммерческое решение
 
@@ -57,4 +66,4 @@ A5 и A6 остаются на текущих значениях до следу
 
 ## Следующий рабочий этап
 
-Продолжение A4 с фактической доработкой production-файлов, затем A5/A6 и последующие QA/design checkpoints.
+A7 — Design system и визуальная доводка production candidate, после чего A9 QA.
