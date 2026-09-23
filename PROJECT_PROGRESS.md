@@ -12,10 +12,10 @@
 | **A3** | Product Architecture — состав и структура продукта | **100%** |
 | **A4** | Product Creation — создание материалов продукта | **100%** |
 | **A5** | Spreadsheet — Excel/Sheets система | **100%** |
-| **A6** | PDF — printable/digital версия | **85%** |
+| **A6** | PDF — printable/digital версия | **90%** |
 | **A7** | Design — профессиональный визуальный дизайн | **80%** |
-| **A8** | Packaging — финальная упаковка | **65%** |
-| **A9** | QA — техническая, визуальная и содержательная проверка | **70%** |
+| **A8** | Packaging — финальная упаковка | **85%** |
+| **A9** | QA — техническая, визуальная и содержательная проверка | **80%** |
 | **A10** | Store Setup — настройка канала продаж | **0%** |
 | **A11** | Listing — title, description, keywords, previews, FAQ | **0%** |
 | **A12** | Publication — фактическая публикация | **0%** |
@@ -23,7 +23,7 @@
 | **A14** | Iteration — улучшения на основании данных | **0%** |
 | **A15** | Product Factory — масштабирование линейки | **0%** |
 
-## Latest production pass — v2.12
+## Latest production pass — v2.13
 
 После свежего competitor research pass выполнен benchmark pass и затем проведён первый исполняемый QA-проход.
 
@@ -48,6 +48,7 @@
 - production/V2_10_FINAL_VISUAL_QA_CHECKPOINT.md
 - production/V2_11_SAMPLE_AND_VISUAL_REGRESSION_CHECKPOINT.md
 - production/V2_12_RELEASE_CANDIDATE_PACKAGE_CHECKPOINT.md
+- production/V2_13_FINAL_CONTENT_PACKAGE_AUDIT.md
 
 ## Research focus — 24.09.2026
 
@@ -55,7 +56,7 @@
 
 ## QA rule
 
-A9: 70% — structural QA, LibreOffice round-trip, PDF integrity, edge-case logic review, multi-month synthetic regression, multilingual/mobile-safe audit, rendered all-sheet visual review, sample-workbook regression and RC package integrity test completed. Physical Android interaction and final content/release gate remain open.
+A9: 80% — structural QA, LibreOffice round-trip, PDF integrity, edge-case logic review, multi-month synthetic regression, multilingual/mobile-safe audit, rendered all-sheet visual review, sample-workbook regression, RC package integrity and final content/package audit completed. Physical Android interaction remains the final unresolved QA gate.
 
 Обязательны:
 - четыре языка;
