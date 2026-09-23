@@ -10,8 +10,8 @@
 | **A1** | Market Research — исследование рынка и конкурентов | **100%** |
 | **A2** | Product Selection — выбор и коммерческая валидация первой ниши | **100%** |
 | **A3** | Product Architecture — состав и структура продукта | **100%** |
-| **A4** | Product Creation — создание материалов продукта | **75%** |
-| **A5** | Spreadsheet — Excel/Sheets система | **80%** |
+| **A4** | Product Creation — создание материалов продукта | **85%** |
+| **A5** | Spreadsheet — Excel/Sheets система | **90%** |
 | **A6** | PDF — printable/digital версия | **60%** |
 | **A7** | Design — профессиональный визуальный дизайн | **0%** |
 | **A8** | Packaging — финальная упаковка | **25%** |
@@ -23,28 +23,28 @@
 | **A14** | Iteration — улучшения на основании данных | **0%** |
 | **A15** | Product Factory — масштабирование линейки | **0%** |
 
-## Новый production checkpoint
+## Production checkpoint 02
 
-Добавлен первый реальный multilingual implementation pass.
+Создан production/MULTILINGUAL_MOBILE_SAFE_CHECKPOINT_02.md.
 
-Реализовано:
-- English как язык по умолчанию;
-- Spanish / Español;
-- Italian / Italiano;
-- Russian / Русский;
-- выпадающий Language Selector на Dashboard;
-- скрытый защищённый Translations layer;
-- локализованный заголовок Dashboard;
-- пользовательские финансовые данные не переводятся и не изменяются.
+Выполнено:
+- мобильный Language Selector;
+- четыре языка;
+- перевод основных пользовательских подписей;
+- перевод Budget;
+- перевод Transactions;
+- перевод Debt Tracker;
+- перевод Savings Goals;
+- перевод Annual Review;
+- перевод месяцев;
+- автоматизированная проверка четырёх языков и пересчёта.
 
-GitHub checkpoint:
-production/MULTILINGUAL_EXCEL_IMPLEMENTATION_01.md
+Версия production candidate:
+Personal_Money_Command_Center_v1.3_MOBILE_SAFE.xlsx
 
-Commit: 921091b19f2a9f72cda5d116a05c0ea0f69e77ad
+## Важное правило QA
 
-## Ограничение текущего checkpoint
-
-Это только первый multilingual pass. До публикации необходимо локализовать остальные пользовательские подписи во всех листах и провести полный визуальный/формульный QA для четырёх языков.
+Автоматический тест подтверждает формулы и пересчёт, но не заменяет физическую проверку Excel Android. Device QA остаётся в A9 и будет выполнена вместе с полным финальным QA.
 
 ## Коммерческое решение
 
@@ -70,6 +70,6 @@ Commit: 921091b19f2a9f72cda5d116a05c0ea0f69e77ad
 
 Процент увеличивается только после фактического выполнения соответствующей части и сохранения результата в GitHub.
 
-## Следующий рабочий этап
+## Следующий этап
 
-Продолжить мультиязычную локализацию остальных листов, затем A7 Design и A9 QA.
+Продолжить production refinement, затем A7 Design и после него полный A9 QA.
