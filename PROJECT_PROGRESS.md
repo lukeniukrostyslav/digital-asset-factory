@@ -10,11 +10,11 @@
 | **A1** | Market Research — исследование рынка и конкурентов | **100%** |
 | **A2** | Product Selection — выбор и коммерческая валидация первой ниши | **100%** |
 | **A3** | Product Architecture — состав и структура продукта | **100%** |
-| **A4** | Product Creation — создание материалов продукта | **85%** |
-| **A5** | Spreadsheet — Excel/Sheets система | **90%** |
+| **A4** | Product Creation — создание материалов продукта | **90%** |
+| **A5** | Spreadsheet — Excel/Sheets система | **95%** |
 | **A6** | PDF — printable/digital версия | **60%** |
 | **A7** | Design — профессиональный визуальный дизайн | **0%** |
-| **A8** | Packaging — финальная упаковка | **25%** |
+| **A8** | Packaging — финальная упаковка | **30%** |
 | **A9** | QA — техническая, визуальная и содержательная проверка | **0%** |
 | **A10** | Store Setup — настройка канала продаж | **0%** |
 | **A11** | Listing — title, description, keywords, previews, FAQ | **0%** |
@@ -23,53 +23,60 @@
 | **A14** | Iteration — улучшения на основании данных | **0%** |
 | **A15** | Product Factory — масштабирование линейки | **0%** |
 
-## Production checkpoint 02
+## Production update — 24.09.2026
 
-Создан production/MULTILINGUAL_MOBILE_SAFE_CHECKPOINT_02.md.
+После свежего конкурентного сканирования production candidate расширен.
 
-Выполнено:
-- мобильный Language Selector;
-- четыре языка;
-- перевод основных пользовательских подписей;
-- перевод Budget;
-- перевод Transactions;
-- перевод Debt Tracker;
-- перевод Savings Goals;
-- перевод Annual Review;
-- перевод месяцев;
-- автоматизированная проверка четырёх языков и пересчёта.
+Новая версия:
+Personal_Money_Command_Center_v1.4_ENHANCED.xlsx
 
-Версия production candidate:
-Personal_Money_Command_Center_v1.3_MOBILE_SAFE.xlsx
+Добавлены:
+- Setup & Privacy;
+- Bills / recurring payments;
+- Net Worth;
+- Dashboard KPIs for bills and net worth;
+- mobile-friendly tables and filters.
 
-## Важное правило QA
+Существующие модули сохранены:
+- Dashboard;
+- Budget;
+- Transactions;
+- Debt Tracker;
+- Savings Goals;
+- Annual Review;
+- multilingual selector.
 
-Автоматический тест подтверждает формулы и пересчёт, но не заменяет физическую проверку Excel Android. Device QA остаётся в A9 и будет выполнена вместе с полным финальным QA.
+## Research checkpoint
 
-## Коммерческое решение
+Создан:
+research/COMPETITOR_SCAN_2026_09_24.md
 
-Продукт: Personal Money Command Center.
+Исследование подтвердило, что сильные spreadsheet-продукты часто объединяют budget, transactions, debt, savings, net worth, annual views, dashboards и/или bills. Поэтому продукт развивается как единая personal-finance command center, а не как простой budget template.
 
-Рынки:
-1. США — первый.
-2. Канада — второй.
-3. Великобритания — третий.
-4. Австралия — четвёртый.
-5. Другие англоязычные рынки — позже.
+## Current commercial assumptions
 
-Цена:
-- Launch: $9.99 USD.
-- Planned regular: $12.99 USD.
+Product: Personal Money Command Center
 
-Каналы:
-- Payhip Free — основной.
-- Gumroad — дополнительный.
-- Etsy — позже.
+Markets:
+1. USA
+2. Canada
+3. UK
+4. Australia
+5. other English-speaking markets later
 
-## Правило процентов
+Price:
+- Launch $9.99 USD
+- Planned regular $12.99 USD
 
-Процент увеличивается только после фактического выполнения соответствующей части и сохранения результата в GitHub.
+Channels:
+- Payhip Free
+- Gumroad
+- Etsy later
 
-## Следующий этап
+## QA rule
 
-Продолжить production refinement, затем A7 Design и после него полный A9 QA.
+No publication percentage will be raised until the relevant artifact is actually tested. Final Android Excel behavior remains part of A9.
+
+## Next
+
+A7 visual design → A9 full QA → A8 final packaging → A10/A11 store preparation.
