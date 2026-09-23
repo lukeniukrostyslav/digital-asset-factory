@@ -10,11 +10,11 @@
 | **A1** | Market Research — исследование рынка и конкурентов | **100%** |
 | **A2** | Product Selection — выбор и коммерческая валидация первой ниши | **100%** |
 | **A3** | Product Architecture — состав и структура продукта | **100%** |
-| **A4** | Product Creation — создание материалов продукта | **93%** |
-| **A5** | Spreadsheet — Excel/Sheets система | **98%** |
+| **A4** | Product Creation — создание материалов продукта | **95%** |
+| **A5** | Spreadsheet — Excel/Sheets система | **99%** |
 | **A6** | PDF — printable/digital версия | **60%** |
-| **A7** | Design — профессиональный визуальный дизайн | **35%** |
-| **A8** | Packaging — финальная упаковка | **32%** |
+| **A7** | Design — профессиональный визуальный дизайн | **45%** |
+| **A8** | Packaging — финальная упаковка | **35%** |
 | **A9** | QA — техническая, визуальная и содержательная проверка | **0%** |
 | **A10** | Store Setup — настройка канала продаж | **0%** |
 | **A11** | Listing — title, description, keywords, previews, FAQ | **0%** |
@@ -23,52 +23,48 @@
 | **A14** | Iteration — улучшения на основании данных | **0%** |
 | **A15** | Product Factory — масштабирование линейки | **0%** |
 
-## Production update — 24.09.2026
+## Latest production pass — v1.7
 
-После нового конкурентного research pass и system/design refinement production candidate расширен.
+После дополнительного конкурентного research pass выполнен connected-dashboard refinement.
 
-### v1.6 System Pass
+### Что реально завершено
+- Исправлены формулы итогов Transactions: доходы и расходы теперь берутся из Amount по Type.
+- Dashboard Debt Balance связан с Debt Tracker.
+- Dashboard Savings связан с Savings Goals.
+- Dashboard Net Worth рассчитывается как Assets − Liabilities.
+- Bills this month и Unpaid bills учитывают выбранные Month + Year.
+- В Setup добавлен редактируемый Year.
+- Cash Flow теперь автоматически получает месячные Income / Expenses из Transactions по дате и типу.
+- Dashboard system insights сохранены.
+- Выполнен синтетический тест через LibreOffice с январскими тестовыми данными.
 
-Создан production candidate:
-Personal_Money_Command_Center_v1.6_SYSTEM_PASS.xlsx
+## Новые checkpoints
+- research/COMPETITOR_RESEARCH_CHECKPOINT_03.md
+- production/A5_A7_V1_7_CONNECTED_DASHBOARD_CHECKPOINT.md
 
-Добавлены:
-- Accounts — единый источник текущих балансов;
-- Spending Insights — расходы по категориям и доля расходов;
-- Cash Flow — годовой обзор income / expenses / net cash flow;
-- Dashboard system insights;
-- Top spending category;
-- Total account balances;
-- Accounts included in net worth.
+## Конкурентный research — актуальный вывод
 
-Существующие модули сохранены:
-- Start Here;
-- Dashboard;
-- Budget;
-- Transactions;
-- Bills;
-- Debt Tracker;
-- Savings Goals;
-- Net Worth;
-- Annual Review;
-- multilingual layer;
-- Setup / privacy.
+Современные продукты категории конкурируют не одной таблицей бюджета, а связанной системой: transactions + budget + bills + savings + debt + net worth + cash flow + dashboard/insights. Отдельно заметны критерии setup ease, feature depth, visual design, customization, mobile usability и value.
 
-## Fresh competitor research
-
-Создан:
-research/COMPETITOR_RESEARCH_CHECKPOINT_02.md
-
-Исследование 24.09.2026 подтверждает актуальный рыночный паттерн connected personal-finance spreadsheet:
-budget + transactions + spending analysis + debt + savings + bills + account balances + net worth + cash flow + dashboard/insights.
-
-Особенно важный UX-паттерн: сильные системы стараются свести ввод данных к минимальному числу мест и строить остальные представления из общей базы данных.
+Источники research за 24.09.2026:
+- FinancialAha comparison
+- Tools Without Code personal finance OS
+- Tidy Ledgers current Gumroad product
+- Tiller Excel finance templates
+- Etsy budget spreadsheet marketplace signals
 
 ## QA rule
 
 A9 остаётся 0% до отдельного полного QA-прохода. Автоматический расчёт отдельных формул не считается финальной QA.
 
-Финальный Android Excel test остаётся обязательным.
+Обязательны:
+- четыре языка;
+- blank/edge cases;
+- formula integrity;
+- desktop opening;
+- Android Excel test;
+- final visual review;
+- PDF/package integrity.
 
 ## Commercial assumptions
 
@@ -90,6 +86,8 @@ Channels:
 - Gumroad
 - Etsy later
 
-## Next
+## Next production sequence
 
-Продолжить A7 visual/design refinement → complete A6 PDF → затем A9 full QA → A8 final packaging → A10/A11 store preparation.
+A7 visual refinement → A6 final PDF materials → A9 full QA → A8 final package → A10/A11 store preparation → A12 publication.
+
+Intermediate files are not released to the user. Final commercial ZIP will be delivered only after production and QA are complete.
