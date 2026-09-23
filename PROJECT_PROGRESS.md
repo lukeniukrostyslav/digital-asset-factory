@@ -14,8 +14,8 @@
 | **A5** | Spreadsheet — Excel/Sheets система | **100%** |
 | **A6** | PDF — printable/digital версия | **95%** |
 | **A7** | Design — профессиональный визуальный дизайн | **80%** |
-| **A8** | Packaging — финальная упаковка | **90%** |
-| **A9** | QA — техническая, визуальная и содержательная проверка | **87%** |
+| **A8** | Packaging — финальная упаковка | **92%** |
+| **A9** | QA — техническая, визуальная и содержательная проверка | **90%** |
 | **A10** | Store Setup — настройка канала продаж | **0%** |
 | **A11** | Listing — title, description, keywords, previews, FAQ | **0%** |
 | **A12** | Publication — фактическая публикация | **0%** |
@@ -23,7 +23,7 @@
 | **A14** | Iteration — улучшения на основании данных | **0%** |
 | **A15** | Product Factory — масштабирование линейки | **0%** |
 
-## Latest production pass — v2.15
+## Latest production pass — v2.16
 
 После свежего competitor research pass выполнен benchmark pass, затем повторный исполняемый QA-проход выявил реальные Cash Flow defects; оба release-candidate workbook были исправлены и повторно проверены.
 
@@ -40,6 +40,7 @@
 - Printable PDF, AI Prompt Pack and Quick Start Guide scanned for release-risk language; required non-advice/privacy boundaries are present and no TODO/TBD placeholders were found.
 - Both workbooks scanned for external URLs and competitor-brand leakage: 0 URLs and 0 competitor-brand mentions.
 - Final candidate ZIP revalidated after extraction and LibreOffice round-trip.
+- V2.16 workbook technical audit: both candidates have 0 cached error cells, 0 external URLs, 0 external-workbook references, no macros and no defined names.
 
 ## Новые checkpoints
 - production/V2_1_DASHBOARD_INSIGHTS_CHECKPOINT.md
@@ -58,6 +59,8 @@
 - research/V2_14_COMPETITOR_AND_PRODUCT_GAP_CHECKPOINT.md
 - production/V2_14_FORMULA_HARDENING_QA_CHECKPOINT.md
 - production/V2_15_RELEASE_CONTENT_AND_PACKAGE_AUDIT.md
+- research/V2_16_CURRENT_COMPETITOR_BENCHMARK.md
+- production/V2_16_WORKBOOK_TECHNICAL_AUDIT.md
 
 ## Research focus — 24.09.2026
 
@@ -65,7 +68,7 @@
 
 ## QA rule
 
-A9: 87% — all prior structural/visual/content checks plus fresh formula hardening, zero-error LibreOffice recalculation, PDF content-risk audit, external-URL scan and competitor-brand leakage scan. Physical Android interaction remains the final unresolved QA gate.
+A9: 90% — all prior structural/visual/content checks plus fresh formula hardening, zero-error recalculation, PDF content-risk audit, external-URL scan, competitor-brand scan and a new workbook technical audit. Physical Android interaction remains the final unresolved QA gate.
 
 Обязательны:
 - четыре языка;
@@ -98,6 +101,6 @@ Channels:
 
 ## Next production sequence
 
-Finish A9 physical Android gate → rebuild final package from the verified candidates → A10/A11 store preparation → A12 publication.
+Finish A9 physical Android gate → rebuild final package from the verified candidates → complete A10/A11 store preparation → A12 publication.
 
 Intermediate files are not released. Final commercial ZIP will be delivered only after the full production and QA gates are passed.
