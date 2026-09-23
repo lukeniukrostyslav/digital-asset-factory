@@ -15,7 +15,7 @@
 | **A6** | PDF — printable/digital версия | **80%** |
 | **A7** | Design — профессиональный визуальный дизайн | **72%** |
 | **A8** | Packaging — финальная упаковка | **35%** |
-| **A9** | QA — техническая, визуальная и содержательная проверка | **15%** |
+| **A9** | QA — техническая, визуальная и содержательная проверка | **25%** |
 | **A10** | Store Setup — настройка канала продаж | **0%** |
 | **A11** | Listing — title, description, keywords, previews, FAQ | **0%** |
 | **A12** | Publication — фактическая публикация | **0%** |
@@ -23,7 +23,7 @@
 | **A14** | Iteration — улучшения на основании данных | **0%** |
 | **A15** | Product Factory — масштабирование линейки | **0%** |
 
-## Latest production pass — v2.6
+## Latest production pass — v2.7
 
 После свежего competitor research pass выполнен benchmark pass и затем проведён первый исполняемый QA-проход.
 
@@ -42,6 +42,7 @@
 - research/V2_4_COMPETITOR_GAP_QA_REQUIREMENTS.md
 - research/V2_5_COMPETITOR_BENCHMARK_CHECKPOINT.md
 - production/V2_6_QA_EXECUTION_CHECKPOINT.md
+- production/V2_7_EDGE_CASE_QA_CHECKPOINT.md
 
 ## Research focus — 24.09.2026
 
@@ -49,7 +50,7 @@
 
 ## QA rule
 
-A9: 15% — structural workbook QA, LibreOffice round-trip и PDF integrity выполнены. Android, exhaustive multilingual, edge-case и final visual/package gates ещё не пройдены.
+A9: 25% — structural QA, LibreOffice round-trip, PDF integrity и edge-case logic review выполнены. Android, exhaustive multilingual, larger synthetic dataset, final visual/package gates ещё не пройдены.
 
 Обязательны:
 - четыре языка;
