@@ -14,8 +14,8 @@
 | **A5** | Spreadsheet — Excel/Sheets система | **100%** |
 | **A6** | PDF — printable/digital версия | **95%** |
 | **A7** | Design — профессиональный визуальный дизайн | **80%** |
-| **A8** | Packaging — финальная упаковка | **93%** |
-| **A9** | QA — техническая, визуальная и содержательная проверка | **90%** |
+| **A8** | Packaging — финальная упаковка | **94%** |
+| **A9** | QA — техническая, визуальная и содержательная проверка | **92%** |
 | **A10** | Store Setup — настройка канала продаж | **20%** |
 | **A11** | Listing — title, description, keywords, previews, FAQ | **55%** |
 | **A12** | Publication — фактическая публикация | **0%** |
@@ -23,7 +23,7 @@
 | **A14** | Iteration — улучшения на основании данных | **0%** |
 | **A15** | Product Factory — масштабирование линейки | **0%** |
 
-## Latest production pass — v2.17
+## Latest production pass — v2.18
 
 После свежего competitor research pass выполнен benchmark pass, затем повторный исполняемый QA-проход выявил реальные Cash Flow defects; оба release-candidate workbook были исправлены и повторно проверены.
 
@@ -43,6 +43,7 @@
 - V2.16 workbook technical audit: both candidates have 0 cached error cells, 0 external URLs, 0 external-workbook references, no macros and no defined names.
 - A11 listing master drafted with title, short/full description, package contents, factual feature list, keywords and FAQ.
 - A10 Payhip setup checklist prepared from current Payhip documentation; no actual store publication is claimed.
+- V2.18 final release-gate preparation completed after another competitor benchmark. Release is still blocked by the explicitly unverified physical Android test.
 
 ## Новые checkpoints
 - production/V2_1_DASHBOARD_INSIGHTS_CHECKPOINT.md
@@ -65,6 +66,7 @@
 - production/V2_16_WORKBOOK_TECHNICAL_AUDIT.md
 - commercial/A11_LISTING_MASTER_v1.0.md
 - commercial/A10_PAYHIP_STORE_SETUP_CHECKLIST.md
+- production/V2_18_FINAL_RELEASE_GATE_PREPARATION.md
 
 ## Research focus — 24.09.2026
 
@@ -72,7 +74,7 @@
 
 ## QA rule
 
-A9: 90% — all prior structural/visual/content checks plus fresh formula hardening, zero-error recalculation, PDF content-risk audit, external-URL scan, competitor-brand scan and a new workbook technical audit. Physical Android interaction remains the final unresolved QA gate.
+A9: 92% — all prior structural/visual/content checks plus repeated formula hardening, zero-error recalculation, PDF content-risk audit, external-URL scan, competitor-brand scan, workbook technical audit and final release-gate preparation. Physical Android interaction remains the final unresolved QA gate.
 
 Обязательны:
 - четыре языка;
