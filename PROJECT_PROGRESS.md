@@ -13,9 +13,9 @@
 | **A4** | Product Creation — создание материалов продукта | **100%** |
 | **A5** | Spreadsheet — Excel/Sheets система | **100%** |
 | **A6** | PDF — printable/digital версия | **95%** |
-| **A7** | Design — профессиональный визуальный дизайн | **94%** |
+| **A7** | Design — профессиональный визуальный дизайн | **96%** |
 | **A8** | Packaging — финальная упаковка | **88%** |
-| **A9** | QA — техническая, визуальная и содержательная проверка | **87%** |
+| **A9** | QA — техническая, визуальная и содержательная проверка | **89%** |
 | **A10** | Store Setup — настройка канала продаж | **20%** |
 | **A11** | Listing — title, description, keywords, previews, FAQ | **55%** |
 | **A12** | Publication — фактическая публикация | **0%** |
@@ -23,11 +23,20 @@
 | **A14** | Iteration — улучшения на основании данных | **0%** |
 | **A15** | Product Factory — масштабирование линейки | **0%** |
 
-## Latest production pass — v2.22
+## Latest production pass — v2.26
 
 После свежего competitor research pass выполнен benchmark pass, затем повторный исполняемый QA-проход выявил реальные Cash Flow defects; оба release-candidate workbook были исправлены и повторно проверены.
 
 ### Реально завершено
+- V2.26 premium UX pass applied a controlled presentation layer using basic cell styles only; no charts, drawings, tables, conditional formatting, merges, print settings, external links or macros were introduced.
+- Dashboard hierarchy was refined into title/controls, primary KPIs and secondary review insights.
+- Input vs calculated cells were visually differentiated across the main working sheets.
+- Mobile-oriented widths, wrapping and row heights were refined for multilingual headers.
+- Start Here title/instruction presentation was repaired in rendered review; the title no longer clips.
+- Blank and Sample candidates retained 15 sheets, 355/320 formulas, 3 data-validation collections and 0 cached formula-error literals after LibreOffice recalculation.
+- OOXML compatibility scan of the internal release candidates found 0 extLst, 0 definedName elements, 0 external links and 0 macros.
+- Four-language regression passed for English / Russian / Italian / Spanish with identical financial metrics.
+- Physical Android Excel opening remains unverified and is still a hard release gate.
 - Добавлен Budget Remaining KPI.
 - Добавлен Savings Rate KPI.
 - Новые KPI локализованы на English / Russian / Italian / Spanish.
@@ -86,6 +95,7 @@
 - production/V2_23_MULTILINGUAL_UI_AUDIT.md
 - production/V2_24_MULTILINGUAL_SYSTEM_IMPLEMENTATION_SPEC.md
 - production/V2_24_MULTILINGUAL_IMPLEMENTATION_RESULTS.md
+- production/V2_26_ANDROID_SAFE_PREMIUM_UX_REFINEMENT.md
 - research/V2_25_COMPETITOR_GAP_PREMIUM_UX_CHECKPOINT.md
 - production/V2_25_PRINT_VISUAL_QA_FINDINGS.md
 - production/V2_24_MULTILINGUAL_IMPLEMENTATION_RESULTS.md
@@ -96,7 +106,7 @@
 
 ## QA rule
 
-A9: 84% — all prior structural/visual/content checks plus repeated formula hardening, zero-error recalculation, PDF content-risk audit, external-URL scan, competitor-brand scan, workbook technical audit and final release-gate preparation. Physical Android interaction remains the final unresolved QA gate.
+A9: 89% — prior structural/visual/content checks plus V2.26 premium UX styling, four-language regression, zero-error recalculation, OOXML compatibility scan and rendered visual review. Physical Android interaction remains the final unresolved QA gate.
 
 Обязательны:
 - четыре языка;
@@ -129,6 +139,6 @@ Channels:
 
 ## Next production sequence
 
-Test V2.22 deep-rebuild Android candidate → V2.24 multilingual implementation and regression passed internally → continue mobile visual remediation and Android acceptance → reintroduce safe visual layers → close A7/A9 only after evidence → if the Android core opens, reintroduce visual layers one at a time with regression checks → close A7/A9 only after evidence → rebuild final commercial package → store/checkout test → publication.
+V2.22/V2.24 compatibility core → V2.26 premium UX refinement → physical Android acceptance → controlled visual-layer acceptance → final print settings → final commercial package → store/checkout test → publication.
 
 Intermediate files are not released. Final commercial ZIP will be delivered only after the full production and QA gates are passed.
