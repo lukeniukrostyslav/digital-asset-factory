@@ -12,10 +12,10 @@
 | **A3** | Product Architecture — состав и структура продукта | **100%** |
 | **A4** | Product Creation — создание материалов продукта | **100%** |
 | **A5** | Spreadsheet — Excel/Sheets система | **100%** |
-| **A6** | PDF — printable/digital версия | **90%** |
+| **A6** | PDF — printable/digital версия | **95%** |
 | **A7** | Design — профессиональный визуальный дизайн | **80%** |
-| **A8** | Packaging — финальная упаковка | **85%** |
-| **A9** | QA — техническая, визуальная и содержательная проверка | **85%** |
+| **A8** | Packaging — финальная упаковка | **90%** |
+| **A9** | QA — техническая, визуальная и содержательная проверка | **87%** |
 | **A10** | Store Setup — настройка канала продаж | **0%** |
 | **A11** | Listing — title, description, keywords, previews, FAQ | **0%** |
 | **A12** | Publication — фактическая публикация | **0%** |
@@ -23,7 +23,7 @@
 | **A14** | Iteration — улучшения на основании данных | **0%** |
 | **A15** | Product Factory — масштабирование линейки | **0%** |
 
-## Latest production pass — v2.14
+## Latest production pass — v2.15
 
 После свежего competitor research pass выполнен benchmark pass, затем повторный исполняемый QA-проход выявил реальные Cash Flow defects; оба release-candidate workbook были исправлены и повторно проверены.
 
@@ -37,6 +37,9 @@
 - Fresh LibreOffice round-trip после formula hardening: 0 cached formula errors в Blank и Sample.
 - Formula parenthesis audit: 0 unbalanced formulas.
 - Sample Bills/Cash Flow linkage repaired and verified.
+- Printable PDF, AI Prompt Pack and Quick Start Guide scanned for release-risk language; required non-advice/privacy boundaries are present and no TODO/TBD placeholders were found.
+- Both workbooks scanned for external URLs and competitor-brand leakage: 0 URLs and 0 competitor-brand mentions.
+- Final candidate ZIP revalidated after extraction and LibreOffice round-trip.
 
 ## Новые checkpoints
 - production/V2_1_DASHBOARD_INSIGHTS_CHECKPOINT.md
@@ -54,6 +57,7 @@
 - production/V2_13_FINAL_CONTENT_PACKAGE_AUDIT.md
 - research/V2_14_COMPETITOR_AND_PRODUCT_GAP_CHECKPOINT.md
 - production/V2_14_FORMULA_HARDENING_QA_CHECKPOINT.md
+- production/V2_15_RELEASE_CONTENT_AND_PACKAGE_AUDIT.md
 
 ## Research focus — 24.09.2026
 
@@ -61,7 +65,7 @@
 
 ## QA rule
 
-A9: 85% — all prior structural/visual/content checks plus a fresh formula audit, defect repair, LibreOffice round-trip and zero-error cached recalculation on both Blank and Sample workbooks. Physical Android interaction remains the final unresolved QA gate.
+A9: 87% — all prior structural/visual/content checks plus fresh formula hardening, zero-error LibreOffice recalculation, PDF content-risk audit, external-URL scan and competitor-brand leakage scan. Physical Android interaction remains the final unresolved QA gate.
 
 Обязательны:
 - четыре языка;
