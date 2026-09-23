@@ -13,7 +13,7 @@
 | **A4** | Product Creation — создание материалов продукта | **97%** |
 | **A5** | Spreadsheet — Excel/Sheets система | **100%** |
 | **A6** | PDF — printable/digital версия | **60%** |
-| **A7** | Design — профессиональный визуальный дизайн | **58%** |
+| **A7** | Design — профессиональный визуальный дизайн | **68%** |
 | **A8** | Packaging — финальная упаковка | **35%** |
 | **A9** | QA — техническая, визуальная и содержательная проверка | **0%** |
 | **A10** | Store Setup — настройка канала продаж | **0%** |
@@ -23,9 +23,9 @@
 | **A14** | Iteration — улучшения на основании данных | **0%** |
 | **A15** | Product Factory — масштабирование линейки | **0%** |
 
-## Latest production pass — v2.1
+## Latest production pass — v2.2
 
-После свежего competitor research pass усилен Dashboard layer.
+После свежего competitor research pass выполнен отдельный visual/UX refinement pass.
 
 ### Реально завершено
 - Добавлен Budget Remaining KPI.
@@ -35,8 +35,9 @@
 - Workbook успешно прошёл LibreOffice round-trip.
 - Blank-state test не создаёт ошибок: Budget Remaining = 0, Savings Rate = 0.
 
-## Новый checkpoint
+## Новые checkpoints
 - production/V2_1_DASHBOARD_INSIGHTS_CHECKPOINT.md
+- production/V2_2_DESIGN_REFINEMENT_CHECKPOINT.md
 
 ## Research focus — 24.09.2026
 
