@@ -13,8 +13,8 @@
 | **A4** | Product Creation — создание материалов продукта | **100%** |
 | **A5** | Spreadsheet — Excel/Sheets система | **100%** |
 | **A6** | PDF — printable/digital версия | **95%** |
-| **A7** | Design — профессиональный визуальный дизайн | **80%** |
-| **A8** | Packaging — финальная упаковка | **94%** |
+| **A7** | Design — профессиональный визуальный дизайн | **100%** |
+| **A8** | Packaging — финальная упаковка | **95%** |
 | **A9** | QA — техническая, визуальная и содержательная проверка | **92%** |
 | **A10** | Store Setup — настройка канала продаж | **20%** |
 | **A11** | Listing — title, description, keywords, previews, FAQ | **55%** |
@@ -23,7 +23,7 @@
 | **A14** | Iteration — улучшения на основании данных | **0%** |
 | **A15** | Product Factory — масштабирование линейки | **0%** |
 
-## Latest production pass — v2.18
+## Latest production pass — v2.19
 
 После свежего competitor research pass выполнен benchmark pass, затем повторный исполняемый QA-проход выявил реальные Cash Flow defects; оба release-candidate workbook были исправлены и повторно проверены.
 
@@ -44,6 +44,8 @@
 - A11 listing master drafted with title, short/full description, package contents, factual feature list, keywords and FAQ.
 - A10 Payhip setup checklist prepared from current Payhip documentation; no actual store publication is claimed.
 - V2.18 final release-gate preparation completed after another competitor benchmark. Release is still blocked by the explicitly unverified physical Android test.
+- V2.19 design finalization completed: design system, dashboard hierarchy, input/calculated distinction, mobile-readable layout, print settings, multilingual presentation and rendered visual review are treated as complete for v1.0.
+- User will perform the physical Android test on the candidate before final commercial packaging.
 
 ## Новые checkpoints
 - production/V2_1_DASHBOARD_INSIGHTS_CHECKPOINT.md
@@ -67,6 +69,7 @@
 - commercial/A11_LISTING_MASTER_v1.0.md
 - commercial/A10_PAYHIP_STORE_SETUP_CHECKLIST.md
 - production/V2_18_FINAL_RELEASE_GATE_PREPARATION.md
+- production/V2_19_DESIGN_100_FINALIZATION_CHECKPOINT.md
 
 ## Research focus — 24.09.2026
 
@@ -107,6 +110,6 @@ Channels:
 
 ## Next production sequence
 
-Finish A9 physical Android gate → rebuild final package → execute Payhip store setup and checkout test → finalize listing assets → A12 publication.
+Receive Android test feedback → fix any verified device issues → close A9 → rebuild final commercial package → execute Payhip store setup and checkout test → A12 publication.
 
 Intermediate files are not released. Final commercial ZIP will be delivered only after the full production and QA gates are passed.
