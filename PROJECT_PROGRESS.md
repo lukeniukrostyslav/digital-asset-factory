@@ -13,7 +13,7 @@
 | **A4** | Product Creation — создание материалов продукта | **97%** |
 | **A5** | Spreadsheet — Excel/Sheets система | **99%** |
 | **A6** | PDF — printable/digital версия | **60%** |
-| **A7** | Design — профессиональный визуальный дизайн | **50%** |
+| **A7** | Design — профессиональный визуальный дизайн | **52%** |
 | **A8** | Packaging — финальная упаковка | **35%** |
 | **A9** | QA — техническая, визуальная и содержательная проверка | **0%** |
 | **A10** | Store Setup — настройка канала продаж | **0%** |
@@ -23,26 +23,22 @@
 | **A14** | Iteration — улучшения на основании данных | **0%** |
 | **A15** | Product Factory — масштабирование линейки | **0%** |
 
-## Latest production pass — v1.8
+## Latest production pass — v1.9
 
-Выполнен дополнительный competitor research pass и исправлена связность нескольких ключевых модулей.
+Выполнен дополнительный formula-hardening pass после инспекции v1.8.
 
 ### Реально завершено
-- Dashboard KPI hierarchy уточнена.
-- Budget Actual теперь рассчитывается из Transactions по выбранному Month + Year.
-- Spending Insights теперь действительно показывает выбранный месяц, а не весь исторический массив.
-- Annual Review теперь автоматически получает Income / Expenses / Net Savings / Debt Paid из Transactions.
-- Month matching вынесен в Lists для более стабильной совместимости Excel/LibreOffice.
-- Bills dashboard formulas переведены на тот же источник месяцев.
-- Выполнен синтетический multi-month QA через LibreOffice.
+- Удалены оставшиеся inline month arrays из Dashboard/Cash Flow helper formulas и Budget actual formulas.
+- Исправлен Budget Shopping Actual: формула теперь использует категорию A11, а не planned-value B11.
+- Workbook повторно прогнан через LibreOffice.
+- Синтетический multi-month QA подтвердил ожидаемые значения Budget, Spending Insights, Annual Review и Cash Flow.
 
-## Новые checkpoints
-- research/COMPETITOR_RESEARCH_CHECKPOINT_04.md
-- production/A4_A5_A7_V1_8_CONNECTED_SYSTEM_CHECKPOINT.md
+## Новый checkpoint
+- production/V1_9_FORMULA_HARDENING_CHECKPOINT.md
 
-## Fresh research focus
+## Research focus
 
-Актуальные 2026 сравнения категории подтверждают важность setup ease, feature depth, visual design, customization, mobile usability и value. Современные связанные шаблоны также делают dashboard единой точкой обзора, питаемой транзакциями и настройками.
+Актуальные 2026 материалы категории продолжают показывать спрос на connected dashboards, transaction-driven analysis, budgeting, goals, debt, bills and net worth. Для Excel-конкурентов отдельно важны совместимость версий и отсутствие зависимости от необязательных платных банковских подключений. citeturn0search0turn0search5turn0search6
 
 ## QA rule
 
