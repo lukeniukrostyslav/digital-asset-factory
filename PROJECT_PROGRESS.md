@@ -15,7 +15,7 @@
 | **A6** | PDF — printable/digital версия | **80%** |
 | **A7** | Design — профессиональный визуальный дизайн | **72%** |
 | **A8** | Packaging — финальная упаковка | **35%** |
-| **A9** | QA — техническая, визуальная и содержательная проверка | **0%** |
+| **A9** | QA — техническая, визуальная и содержательная проверка | **5%** |
 | **A10** | Store Setup — настройка канала продаж | **0%** |
 | **A11** | Listing — title, description, keywords, previews, FAQ | **0%** |
 | **A12** | Publication — фактическая публикация | **0%** |
@@ -23,9 +23,9 @@
 | **A14** | Iteration — улучшения на основании данных | **0%** |
 | **A15** | Product Factory — масштабирование линейки | **0%** |
 
-## Latest production pass — v2.4
+## Latest production pass — v2.5
 
-После свежего competitor research pass выполнен gap-analysis pass и зафиксирована расширенная матрица требований для финального QA.
+После свежего competitor research pass выполнен benchmark pass и расширена матрица требований для финального QA.
 
 ### Реально завершено
 - Добавлен Budget Remaining KPI.
@@ -40,6 +40,7 @@
 - production/V2_2_DESIGN_REFINEMENT_CHECKPOINT.md
 - production/V2_3_FINAL_MATERIALS_DRAFT_CHECKPOINT.md
 - research/V2_4_COMPETITOR_GAP_QA_REQUIREMENTS.md
+- research/V2_5_COMPETITOR_BENCHMARK_CHECKPOINT.md
 
 ## Research focus — 24.09.2026
 
@@ -47,7 +48,7 @@
 
 ## QA rule
 
-A9 остаётся 0% до отдельного полного QA-прохода.
+A9 начат: benchmark-derived QA matrix зафиксирована. Полный QA ещё не пройден.
 
 Обязательны:
 - четыре языка;
