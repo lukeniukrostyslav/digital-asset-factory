@@ -13,7 +13,7 @@
 | **A4** | Product Creation — создание материалов продукта | **97%** |
 | **A5** | Spreadsheet — Excel/Sheets система | **100%** |
 | **A6** | PDF — printable/digital версия | **60%** |
-| **A7** | Design — профессиональный визуальный дизайн | **55%** |
+| **A7** | Design — профессиональный визуальный дизайн | **58%** |
 | **A8** | Packaging — финальная упаковка | **35%** |
 | **A9** | QA — техническая, визуальная и содержательная проверка | **0%** |
 | **A10** | Store Setup — настройка канала продаж | **0%** |
@@ -23,26 +23,24 @@
 | **A14** | Iteration — улучшения на основании данных | **0%** |
 | **A15** | Product Factory — масштабирование линейки | **0%** |
 
-## Latest production pass — v2.0
+## Latest production pass — v2.1
 
-После свежего конкурентного research pass выполнен Dashboard hardening.
+После свежего competitor research pass усилен Dashboard layer.
 
 ### Реально завершено
-- Исправлен semantic mismatch: Dashboard Total Income / Total Expenses / Net Cash Flow теперь считаются только за выбранный Month + Year.
-- Dashboard subtitle уточнён как месячный обзор.
-- Freeze panes применены к ключевым рабочим листам.
-- Gridlines скрыты на ключевых рабочих листах.
-- Print fit-to-width настройки применены к рабочим листам.
-- Полный пересчёт при открытии сохранён.
-- LibreOffice round-trip проверка прошла успешно.
-- Синтетический январский тест подтвердил Income 3000 / Expenses 1000 / Net Cash Flow 2000 и Budget Housing Actual 1000.
+- Добавлен Budget Remaining KPI.
+- Добавлен Savings Rate KPI.
+- Новые KPI локализованы на English / Russian / Italian / Spanish.
+- Сохранена connected architecture и mobile-safe formula strategy.
+- Workbook успешно прошёл LibreOffice round-trip.
+- Blank-state test не создаёт ошибок: Budget Remaining = 0, Savings Rate = 0.
 
 ## Новый checkpoint
-- production/V2_0_DASHBOARD_HARDENING_CHECKPOINT.md
+- production/V2_1_DASHBOARD_INSIGHTS_CHECKPOINT.md
 
 ## Research focus — 24.09.2026
 
-Свежий research подтверждает, что для personal-finance templates полезно оценивать setup ease, feature depth, visual design, customization, mobile usability и value. Современные Excel/Sheets продукты также конкурируют через связанные dashboard, transaction-driven analysis, bills, goals, debt and net worth. citeturn0search0turn0search1turn0search2
+Актуальное сравнение категории продолжает использовать setup ease, feature depth, visual design, customization, mobile usability и value как практические критерии оценки. Коммерческие Excel-шаблоны также используют period selectors, KPI dashboards, planned-vs-actual views и transaction-driven analysis. Research применяется только для определения требований и QA-критериев.
 
 ## QA rule
 
