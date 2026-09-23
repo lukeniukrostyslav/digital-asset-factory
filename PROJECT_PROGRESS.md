@@ -11,9 +11,9 @@
 | **A2** | Product Selection — выбор и коммерческая валидация первой ниши | **100%** |
 | **A3** | Product Architecture — состав и структура продукта | **100%** |
 | **A4** | Product Creation — создание материалов продукта | **97%** |
-| **A5** | Spreadsheet — Excel/Sheets система | **99%** |
+| **A5** | Spreadsheet — Excel/Sheets система | **100%** |
 | **A6** | PDF — printable/digital версия | **60%** |
-| **A7** | Design — профессиональный визуальный дизайн | **52%** |
+| **A7** | Design — профессиональный визуальный дизайн | **55%** |
 | **A8** | Packaging — финальная упаковка | **35%** |
 | **A9** | QA — техническая, визуальная и содержательная проверка | **0%** |
 | **A10** | Store Setup — настройка канала продаж | **0%** |
@@ -23,22 +23,26 @@
 | **A14** | Iteration — улучшения на основании данных | **0%** |
 | **A15** | Product Factory — масштабирование линейки | **0%** |
 
-## Latest production pass — v1.9
+## Latest production pass — v2.0
 
-Выполнен дополнительный formula-hardening pass после инспекции v1.8.
+После свежего конкурентного research pass выполнен Dashboard hardening.
 
 ### Реально завершено
-- Удалены оставшиеся inline month arrays из Dashboard/Cash Flow helper formulas и Budget actual formulas.
-- Исправлен Budget Shopping Actual: формула теперь использует категорию A11, а не planned-value B11.
-- Workbook повторно прогнан через LibreOffice.
-- Синтетический multi-month QA подтвердил ожидаемые значения Budget, Spending Insights, Annual Review и Cash Flow.
+- Исправлен semantic mismatch: Dashboard Total Income / Total Expenses / Net Cash Flow теперь считаются только за выбранный Month + Year.
+- Dashboard subtitle уточнён как месячный обзор.
+- Freeze panes применены к ключевым рабочим листам.
+- Gridlines скрыты на ключевых рабочих листах.
+- Print fit-to-width настройки применены к рабочим листам.
+- Полный пересчёт при открытии сохранён.
+- LibreOffice round-trip проверка прошла успешно.
+- Синтетический январский тест подтвердил Income 3000 / Expenses 1000 / Net Cash Flow 2000 и Budget Housing Actual 1000.
 
 ## Новый checkpoint
-- production/V1_9_FORMULA_HARDENING_CHECKPOINT.md
+- production/V2_0_DASHBOARD_HARDENING_CHECKPOINT.md
 
-## Research focus
+## Research focus — 24.09.2026
 
-Актуальные 2026 материалы категории продолжают показывать спрос на connected dashboards, transaction-driven analysis, budgeting, goals, debt, bills and net worth. Для Excel-конкурентов отдельно важны совместимость версий и отсутствие зависимости от необязательных платных банковских подключений. citeturn0search0turn0search5turn0search6
+Свежий research подтверждает, что для personal-finance templates полезно оценивать setup ease, feature depth, visual design, customization, mobile usability и value. Современные Excel/Sheets продукты также конкурируют через связанные dashboard, transaction-driven analysis, bills, goals, debt and net worth. citeturn0search0turn0search1turn0search2
 
 ## QA rule
 
