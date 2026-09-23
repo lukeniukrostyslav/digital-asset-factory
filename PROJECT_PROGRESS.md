@@ -13,9 +13,9 @@
 | **A4** | Product Creation — создание материалов продукта | **100%** |
 | **A5** | Spreadsheet — Excel/Sheets система | **100%** |
 | **A6** | PDF — printable/digital версия | **95%** |
-| **A7** | Design — профессиональный визуальный дизайн | **92%** |
+| **A7** | Design — профессиональный визуальный дизайн | **94%** |
 | **A8** | Packaging — финальная упаковка | **88%** |
-| **A9** | QA — техническая, визуальная и содержательная проверка | **84%** |
+| **A9** | QA — техническая, визуальная и содержательная проверка | **87%** |
 | **A10** | Store Setup — настройка канала продаж | **20%** |
 | **A11** | Listing — title, description, keywords, previews, FAQ | **55%** |
 | **A12** | Publication — фактическая публикация | **0%** |
@@ -50,6 +50,7 @@
 - V2.22 deep rebuild generated the compatibility core directly with XlsxWriter, removing desktop-risk OOXML layers while preserving the connected workbook logic and cached verified results.
 - V2.23 competitor/mobile UX research converted current competitor patterns and the real Android screenshots into concrete multilingual, mobile-layout and compatibility-layer requirements. This does not close A7/A9.
 - V2.24 converted the multilingual findings into an implementation specification covering all user-facing sheets, stable internal calculation values, translated display labels, mobile header constraints and four-language acceptance testing.
+- V2.24 implementation pass rebuilt the compatibility core directly with XlsxWriter, expanded the visible localization layer, separated translated category display from stable calculation identifiers, and passed blank/sample four-language regression plus LibreOffice round-trip checks with 0 formula-error literals. Physical Android acceptance remains open.
 - Internal ZIP/XML, openpyxl and LibreOffice round-trip checks passed for both Blank and Sample.
 - Previous audit correction: definedNames were present in the prior candidate; the earlier report of zero was incorrect.
 
@@ -82,6 +83,7 @@
 - research/V2_23_COMPETITOR_MOBILE_UX_CHECKPOINT.md
 - production/V2_23_MULTILINGUAL_UI_AUDIT.md
 - production/V2_24_MULTILINGUAL_SYSTEM_IMPLEMENTATION_SPEC.md
+- production/V2_24_MULTILINGUAL_IMPLEMENTATION_RESULTS.md
 
 ## Research focus — 24.09.2026
 
@@ -122,6 +124,6 @@ Channels:
 
 ## Next production sequence
 
-Test V2.22 deep-rebuild Android candidate → implement V2.24 multilingual system and mobile UX remediation → if the Android core opens, reintroduce visual layers one at a time with regression checks → close A7/A9 only after evidence → rebuild final commercial package → store/checkout test → publication.
+Test V2.22 deep-rebuild Android candidate → V2.24 multilingual implementation and regression passed internally → continue mobile visual remediation and Android acceptance → reintroduce safe visual layers → close A7/A9 only after evidence → if the Android core opens, reintroduce visual layers one at a time with regression checks → close A7/A9 only after evidence → rebuild final commercial package → store/checkout test → publication.
 
 Intermediate files are not released. Final commercial ZIP will be delivered only after the full production and QA gates are passed.
