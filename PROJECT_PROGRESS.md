@@ -13,7 +13,7 @@
 | **A4** | Product Creation — создание материалов продукта | **90%** |
 | **A5** | Spreadsheet — Excel/Sheets система | **95%** |
 | **A6** | PDF — printable/digital версия | **60%** |
-| **A7** | Design — профессиональный визуальный дизайн | **0%** |
+| **A7** | Design — профессиональный визуальный дизайн | **25%** |
 | **A8** | Packaging — финальная упаковка | **30%** |
 | **A9** | QA — техническая, визуальная и содержательная проверка | **0%** |
 | **A10** | Store Setup — настройка канала продаж | **0%** |
@@ -25,33 +25,37 @@
 
 ## Production update — 24.09.2026
 
-После свежего конкурентного сканирования production candidate расширен.
+После свежего конкурентного сканирования и первого профессионального design pass production candidate расширен.
 
-Новая версия:
+### Production versions
+
+v1.4:
 Personal_Money_Command_Center_v1.4_ENHANCED.xlsx
 
-Добавлены:
-- Setup & Privacy;
-- Bills / recurring payments;
-- Net Worth;
-- Dashboard KPIs for bills and net worth;
-- mobile-friendly tables and filters.
+v1.5:
+Personal_Money_Command_Center_v1.5_DESIGN_PASS.xlsx
 
-Существующие модули сохранены:
-- Dashboard;
-- Budget;
-- Transactions;
-- Debt Tracker;
-- Savings Goals;
-- Annual Review;
-- multilingual selector.
+### Новый design pass
+
+Создан:
+production/DESIGN_PASS_01.md
+
+В v1.5 добавлены:
+- Start Here onboarding;
+- единая визуальная иерархия заголовков;
+- более читаемые строки;
+- выделение пользовательских input areas;
+- улучшенная Dashboard KPI подача;
+- Planned vs Actual chart;
+- сохранена мультиязычная архитектура;
+- сохранены privacy boundaries и финансовые модули.
 
 ## Research checkpoint
 
-Создан:
+Обновлён:
 research/COMPETITOR_SCAN_2026_09_24.md
 
-Исследование подтвердило, что сильные spreadsheet-продукты часто объединяют budget, transactions, debt, savings, net worth, annual views, dashboards и/или bills. Поэтому продукт развивается как единая personal-finance command center, а не как простой budget template.
+Свежий обзор подтвердил рыночный паттерн: сильные spreadsheet-системы объединяют budget, transactions, debt, savings, net worth, annual views, dashboards и bills. Это поддерживает направление Personal Money Command Center как единой connected system.
 
 ## Current commercial assumptions
 
@@ -79,4 +83,4 @@ No publication percentage will be raised until the relevant artifact is actually
 
 ## Next
 
-A7 visual design → A9 full QA → A8 final packaging → A10/A11 store preparation.
+Продолжить A7 visual design → затем A9 full QA → A8 final packaging → A10/A11 store preparation.
