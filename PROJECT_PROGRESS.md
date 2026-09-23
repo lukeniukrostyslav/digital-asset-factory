@@ -21,124 +21,139 @@
 | **A12** | Publication — фактическая публикация | **0%** |
 | **A13** | Market Test — первые реальные данные продаж | **0%** |
 | **A14** | Iteration — улучшения на основании данных | **0%** |
-| **A15** | Product Factory — масштабирование линейки | **0%** |
+| **A15** | Product Factory — масштабирование линейки | **5%** |
 
-## Latest production pass — v2.26
+## Текущая задача
 
-После свежего competitor research pass выполнен benchmark pass, затем повторный исполняемый QA-проход выявил реальные Cash Flow defects; оба release-candidate workbook были исправлены и повторно проверены.
+**PRIORITY #1 — Personal Money Command Center**
 
-### Реально завершено
-- V2.26 premium UX pass applied a controlled presentation layer using basic cell styles only; no charts, drawings, tables, conditional formatting, merges, print settings, external links or macros were introduced.
-- Dashboard hierarchy was refined into title/controls, primary KPIs and secondary review insights.
-- Input vs calculated cells were visually differentiated across the main working sheets.
-- Mobile-oriented widths, wrapping and row heights were refined for multilingual headers.
-- Start Here title/instruction presentation was repaired in rendered review; the title no longer clips.
-- Blank and Sample candidates retained 15 sheets, 355/320 formulas, 3 data-validation collections and 0 cached formula-error literals after LibreOffice recalculation.
-- OOXML compatibility scan of the internal release candidates found 0 extLst, 0 definedName elements, 0 external links and 0 macros.
-- Four-language regression passed for English / Russian / Italian / Spanish with identical financial metrics.
-- Physical Android Excel opening remains unverified and is still a hard release gate.
-- Добавлен Budget Remaining KPI.
-- Добавлен Savings Rate KPI.
-- Новые KPI локализованы на English / Russian / Italian / Spanish.
-- Сохранена connected architecture и mobile-safe formula strategy.
-- Workbook успешно прошёл LibreOffice round-trip.
-- Blank-state test не создаёт ошибок: Budget Remaining = 0, Savings Rate = 0.
-- Fresh LibreOffice round-trip после formula hardening: 0 cached formula errors в Blank и Sample.
-- Formula parenthesis audit: 0 unbalanced formulas.
-- Sample Bills/Cash Flow linkage repaired and verified.
-- Printable PDF, AI Prompt Pack and Quick Start Guide scanned for release-risk language; required non-advice/privacy boundaries are present and no TODO/TBD placeholders were found.
-- Both workbooks scanned for external URLs and competitor-brand leakage: 0 URLs and 0 competitor-brand mentions.
-- Final candidate ZIP revalidated after extraction and LibreOffice round-trip.
-- V2.16 workbook technical audit: both candidates have 0 cached error cells, 0 external URLs, 0 external-workbook references, no macros and no defined names.
-- A11 listing master drafted with title, short/full description, package contents, factual feature list, keywords and FAQ.
-- A10 Payhip setup checklist prepared from current Payhip documentation; no actual store publication is claimed.
-- V2.18 final release-gate preparation completed after another competitor benchmark. Release is still blocked by the explicitly unverified physical Android test.
-- V2.19 design finalization completed: design system, dashboard hierarchy, input/calculated distinction, mobile-readable layout, print settings, multilingual presentation and rendered visual review are treated as complete for v1.0.
-- User performed the physical Android test and reported the same Excel repair prompt and prolonged 'Подготовка...' state after the first rebuild. LibreOffice-specific extensions were therefore not the only compatibility risk.
-- V2.21 isolation candidates were rebuilt from the pre-LibreOffice release candidates with definedNames and the chart/drawing layer removed while preserving 15 sheets, formulas, data validation and tables.
-- V2.22 deep rebuild generated the compatibility core directly with XlsxWriter, removing desktop-risk OOXML layers while preserving the connected workbook logic and cached verified results.
-- V2.23 competitor/mobile UX research converted current competitor patterns and the real Android screenshots into concrete multilingual, mobile-layout and compatibility-layer requirements. This does not close A7/A9.
-- V2.24 converted the multilingual findings into an implementation specification covering all user-facing sheets, stable internal calculation values, translated display labels, mobile header constraints and four-language acceptance testing.
-- V2.24 implementation pass rebuilt the compatibility core directly with XlsxWriter, expanded the visible localization layer, separated translated category display from stable calculation identifiers, and passed blank/sample four-language regression plus LibreOffice round-trip checks with 0 formula-error literals. Physical Android acceptance remains open.
-- V2.25 fresh competitor benchmark added dashboard/UX gap requirements. Visual PDF QA of the conservative Android core also confirmed that final print settings must be reintroduced only after Android acceptance; this remains an open commercial presentation layer.
-- V2.24 implementation pass rebuilt the compatibility core directly with XlsxWriter, expanded the visible localization layer, separated translated category display from stable calculation identifiers, and passed blank/sample four-language regression plus LibreOffice round-trip checks with 0 formula-error literals. Physical Android acceptance remains open.
-- Internal ZIP/XML, openpyxl and LibreOffice round-trip checks passed for both Blank and Sample.
-- Previous audit correction: definedNames were present in the prior candidate; the earlier report of zero was incorrect.
+Не начинаем следующий продукт до прохождения release gate текущего продукта.
 
-## Новые checkpoints
-- production/V2_1_DASHBOARD_INSIGHTS_CHECKPOINT.md
-- production/V2_2_DESIGN_REFINEMENT_CHECKPOINT.md
-- production/V2_3_FINAL_MATERIALS_DRAFT_CHECKPOINT.md
-- research/V2_4_COMPETITOR_GAP_QA_REQUIREMENTS.md
-- research/V2_5_COMPETITOR_BENCHMARK_CHECKPOINT.md
-- production/V2_6_QA_EXECUTION_CHECKPOINT.md
-- production/V2_7_EDGE_CASE_QA_CHECKPOINT.md
-- production/V2_8_MULTIMONTH_SYNTHETIC_QA_CHECKPOINT.md
-- production/V2_9_MOBILE_MULTILINGUAL_QA_CHECKPOINT.md
-- production/V2_10_FINAL_VISUAL_QA_CHECKPOINT.md
-- production/V2_11_SAMPLE_AND_VISUAL_REGRESSION_CHECKPOINT.md
-- production/V2_12_RELEASE_CANDIDATE_PACKAGE_CHECKPOINT.md
-- production/V2_13_FINAL_CONTENT_PACKAGE_AUDIT.md
-- research/V2_14_COMPETITOR_AND_PRODUCT_GAP_CHECKPOINT.md
-- production/V2_14_FORMULA_HARDENING_QA_CHECKPOINT.md
-- production/V2_15_RELEASE_CONTENT_AND_PACKAGE_AUDIT.md
-- research/V2_16_CURRENT_COMPETITOR_BENCHMARK.md
-- production/V2_16_WORKBOOK_TECHNICAL_AUDIT.md
-- commercial/A11_LISTING_MASTER_v1.0.md
-- commercial/A10_PAYHIP_STORE_SETUP_CHECKLIST.md
-- production/V2_18_FINAL_RELEASE_GATE_PREPARATION.md
-- production/V2_19_DESIGN_100_FINALIZATION_CHECKPOINT.md
-- production/V2_20_ANDROID_COMPATIBILITY_REBUILD.md
-- production/V2_21_ANDROID_COMPATIBILITY_ISOLATION.md
-- production/V2_22_ANDROID_DEEP_REBUILD_XLSXWRITER.md
-- research/V2_23_COMPETITOR_MOBILE_UX_CHECKPOINT.md
-- production/V2_23_MULTILINGUAL_UI_AUDIT.md
-- production/V2_24_MULTILINGUAL_SYSTEM_IMPLEMENTATION_SPEC.md
-- production/V2_24_MULTILINGUAL_IMPLEMENTATION_RESULTS.md
-- production/V2_26_ANDROID_SAFE_PREMIUM_UX_REFINEMENT.md
-- research/V2_25_COMPETITOR_GAP_PREMIUM_UX_CHECKPOINT.md
-- production/V2_25_PRINT_VISUAL_QA_FINDINGS.md
-- production/V2_24_MULTILINGUAL_IMPLEMENTATION_RESULTS.md
+### Текущая последовательность
 
-## Research focus — 24.09.2026
+V2.26 Android-safe premium UX → физическая проверка Excel Android → controlled visual-layer acceptance → финальные print/Letter настройки → финальный commercial package → store/checkout test → publication.
 
-Актуальное сравнение категории продолжает использовать setup ease, feature depth, visual design, customization, mobile usability и value как практические критерии оценки. Коммерческие Excel-шаблоны также используют period selectors, KPI dashboards, planned-vs-actual views и transaction-driven analysis. Research применяется только для определения требований и QA-критериев.
+### Release Gate
 
-## QA rule
+1. Physical Android Excel acceptance
+2. Controlled premium visual-layer acceptance
+3. Print / Letter QA
+4. Blank + Sample QA
+5. Four-language QA
+6. Formula integrity QA
+7. PDF/package integrity
+8. Final commercial ZIP
+9. Store setup
+10. Checkout test
+11. Publication
 
-A9: 89% — prior structural/visual/content checks plus V2.26 premium UX styling, four-language regression, zero-error recalculation, OOXML compatibility scan and rendered visual review. Physical Android interaction remains the final unresolved QA gate.
+## Что уже выполнено в текущем продукте
 
-Обязательны:
-- четыре языка;
-- blank/edge cases;
-- formula integrity;
-- desktop opening;
-- Android Excel test;
-- final visual review;
-- PDF/package integrity.
+- Market research и competitor benchmark.
+- Product architecture.
+- Connected Excel workbook.
+- 15-sheet system.
+- Budget, Transactions, Debt, Savings, Annual Review.
+- Bills / recurring payments.
+- Net Worth.
+- Accounts.
+- Spending Insights.
+- Cash Flow.
+- Dashboard KPI layer.
+- Budget Remaining.
+- Savings Rate.
+- English / Russian / Italian / Spanish interface.
+- Blank + Sample candidates.
+- Formula hardening.
+- LibreOffice round-trip.
+- OOXML compatibility audits.
+- Premium UX refinement V2.26.
+- Print/visual QA findings.
+- Payhip setup checklist.
+- Commercial listing master.
+- Multiple Android compatibility rebuilds.
+- Physical Android acceptance remains the unresolved hard gate.
 
-## Commercial assumptions
+## Future Product Queue
 
-Product: Personal Money Command Center
+Подробная очередь сохранена в **ROADMAP_FUTURE_PRODUCTS.md**.
 
-Markets:
+1. Personal Money Command Center — CURRENT
+2. Personal Productivity Command Center
+3. Freelancer Command Center
+4. Small Business Command Center
+5. Job Search Command Center
+6. Goal & Habit Command Center
+7. Home Management Command Center
+8. AI Productivity Prompt Pack
+9. Command Center Bundle
+
+## Factory Blocks
+
+| Блок | Назначение | Стартовый статус |
+|---|---|---:|
+| F0 | Product brief + target customer + use case | 0% |
+| F1 | Current market & competitor research | 0% |
+| F2 | Product positioning & scope | 0% |
+| F3 | Product architecture | 0% |
+| F4 | Spreadsheet / digital system build | 0% |
+| F5 | PDF / printable materials | 0% |
+| F6 | AI prompt pack / supporting materials | 0% |
+| F7 | UX/UI & visual design | 0% |
+| F8 | Localization / language system | 0% |
+| F9 | Technical QA | 0% |
+| F10 | Mobile / Android QA where relevant | 0% |
+| F11 | Content & commercial QA | 0% |
+| F12 | Packaging / blank / sample / guide | 0% |
+| F13 | Listing / storefront assets | 0% |
+| F14 | Store / checkout test | 0% |
+| F15 | Publication | 0% |
+| F16 | Post-launch metrics | 0% |
+| F17 | Iteration / v1.1 | 0% |
+| F18 | Cross-sell / bundle integration | 0% |
+
+Проценты не увеличиваются без фактического выполнения и сохранённого checkpoint.
+
+## Commercial Strategy
+
+### Markets
 1. USA
 2. Canada
 3. UK
 4. Australia
 5. other English-speaking markets later
 
-Price:
-- Launch $9.99 USD
-- Planned regular $12.99 USD
+### Current product pricing plan
+- Launch: $9.99 USD
+- Planned regular: $12.99 USD
 
-Channels:
+### Planned channels
 - Payhip Free
 - Gumroad
 - Etsy later
 
-## Next production sequence
+Перед каждой публикацией проверяются актуальные условия площадки и доступность выплат из фактической страны/аккаунта.
 
-V2.22/V2.24 compatibility core → V2.26 premium UX refinement → physical Android acceptance → controlled visual-layer acceptance → final print settings → final commercial package → store/checkout test → publication.
+### Zero-budget principle
 
-Intermediate files are not released. Final commercial ZIP will be delivered only after the full production and QA gates are passed.
+Не закладывать обязательные ежемесячные расходы на старте. Предпочитать бесплатные/безабонентские каналы, где доступны, и модели с комиссией при продаже.
+
+VPN не является частью рабочего процесса.
+
+## Quality Rule
+
+Цель — не количество файлов, а повторяемая коммерческая система качества.
+
+Каждый следующий продукт должен иметь:
+- понятную задачу;
+- профессиональную структуру;
+- onboarding;
+- blank + sample;
+- техническую QA;
+- мобильную QA, если заявляется mobile use;
+- коммерческое описание без неподтверждённых обещаний;
+- лицензию;
+- privacy/disclaimer boundaries;
+- финальную упаковку.
+
+Intermediate files are not released as commercial products. Final commercial package is delivered only after all release gates are passed.
