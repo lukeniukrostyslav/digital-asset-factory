@@ -15,7 +15,7 @@
 | **A6** | PDF — printable/digital версия | **90%** |
 | **A7** | Design — профессиональный визуальный дизайн | **80%** |
 | **A8** | Packaging — финальная упаковка | **85%** |
-| **A9** | QA — техническая, визуальная и содержательная проверка | **80%** |
+| **A9** | QA — техническая, визуальная и содержательная проверка | **85%** |
 | **A10** | Store Setup — настройка канала продаж | **0%** |
 | **A11** | Listing — title, description, keywords, previews, FAQ | **0%** |
 | **A12** | Publication — фактическая публикация | **0%** |
@@ -23,9 +23,9 @@
 | **A14** | Iteration — улучшения на основании данных | **0%** |
 | **A15** | Product Factory — масштабирование линейки | **0%** |
 
-## Latest production pass — v2.13
+## Latest production pass — v2.14
 
-После свежего competitor research pass выполнен benchmark pass и затем проведён первый исполняемый QA-проход.
+После свежего competitor research pass выполнен benchmark pass, затем повторный исполняемый QA-проход выявил реальные Cash Flow defects; оба release-candidate workbook были исправлены и повторно проверены.
 
 ### Реально завершено
 - Добавлен Budget Remaining KPI.
@@ -34,6 +34,9 @@
 - Сохранена connected architecture и mobile-safe formula strategy.
 - Workbook успешно прошёл LibreOffice round-trip.
 - Blank-state test не создаёт ошибок: Budget Remaining = 0, Savings Rate = 0.
+- Fresh LibreOffice round-trip после formula hardening: 0 cached formula errors в Blank и Sample.
+- Formula parenthesis audit: 0 unbalanced formulas.
+- Sample Bills/Cash Flow linkage repaired and verified.
 
 ## Новые checkpoints
 - production/V2_1_DASHBOARD_INSIGHTS_CHECKPOINT.md
@@ -49,6 +52,8 @@
 - production/V2_11_SAMPLE_AND_VISUAL_REGRESSION_CHECKPOINT.md
 - production/V2_12_RELEASE_CANDIDATE_PACKAGE_CHECKPOINT.md
 - production/V2_13_FINAL_CONTENT_PACKAGE_AUDIT.md
+- research/V2_14_COMPETITOR_AND_PRODUCT_GAP_CHECKPOINT.md
+- production/V2_14_FORMULA_HARDENING_QA_CHECKPOINT.md
 
 ## Research focus — 24.09.2026
 
@@ -56,7 +61,7 @@
 
 ## QA rule
 
-A9: 80% — structural QA, LibreOffice round-trip, PDF integrity, edge-case logic review, multi-month synthetic regression, multilingual/mobile-safe audit, rendered all-sheet visual review, sample-workbook regression, RC package integrity and final content/package audit completed. Physical Android interaction remains the final unresolved QA gate.
+A9: 85% — all prior structural/visual/content checks plus a fresh formula audit, defect repair, LibreOffice round-trip and zero-error cached recalculation on both Blank and Sample workbooks. Physical Android interaction remains the final unresolved QA gate.
 
 Обязательны:
 - четыре языка;
@@ -89,6 +94,6 @@ Channels:
 
 ## Next production sequence
 
-Finish A9 physical Android/content gates → rebuild final package from approved candidates → A10/A11 store preparation → A12 publication.
+Finish A9 physical Android gate → rebuild final package from the verified candidates → A10/A11 store preparation → A12 publication.
 
 Intermediate files are not released. Final commercial ZIP will be delivered only after the full production and QA gates are passed.
