@@ -13,7 +13,7 @@
 | **A4** | Product Creation — создание материалов продукта | **100%** |
 | **A5** | Spreadsheet — Excel/Sheets система | **100%** |
 | **A6** | PDF — printable/digital версия | **80%** |
-| **A7** | Design — профессиональный визуальный дизайн | **68%** |
+| **A7** | Design — профессиональный визуальный дизайн | **72%** |
 | **A8** | Packaging — финальная упаковка | **35%** |
 | **A9** | QA — техническая, визуальная и содержательная проверка | **0%** |
 | **A10** | Store Setup — настройка канала продаж | **0%** |
@@ -23,9 +23,9 @@
 | **A14** | Iteration — улучшения на основании данных | **0%** |
 | **A15** | Product Factory — масштабирование линейки | **0%** |
 
-## Latest production pass — v2.3
+## Latest production pass — v2.4
 
-После свежего competitor research pass выполнен отдельный visual/UX refinement pass и подготовлен полный комплект финальных материалов для последующего QA.
+После свежего competitor research pass выполнен gap-analysis pass и зафиксирована расширенная матрица требований для финального QA.
 
 ### Реально завершено
 - Добавлен Budget Remaining KPI.
@@ -39,6 +39,7 @@
 - production/V2_1_DASHBOARD_INSIGHTS_CHECKPOINT.md
 - production/V2_2_DESIGN_REFINEMENT_CHECKPOINT.md
 - production/V2_3_FINAL_MATERIALS_DRAFT_CHECKPOINT.md
+- research/V2_4_COMPETITOR_GAP_QA_REQUIREMENTS.md
 
 ## Research focus — 24.09.2026
 
