@@ -268,3 +268,163 @@ Personal Money Command Center должен пройти:
 - финальную упаковку.
 
 Цель фабрики — повторяемое качество, а не массовое производство слабых шаблонов.
+
+
+---
+
+# POST-FIRST-PRODUCT EXECUTION PLAN
+
+После полного коммерческого релиза **Personal Money Command Center** работаем строго по следующей последовательности.
+
+## STEP 1 — Personal Productivity Command Center
+
+Не начинаем с копирования Money-продукта. Сначала:
+1. актуальное исследование рынка и конкурентов;
+2. определение целевого покупателя и use case;
+3. архитектура продукта;
+4. Excel/Google Sheets system;
+5. PDF/printable;
+6. AI prompt pack;
+7. premium UX/UI;
+8. localization;
+9. technical QA;
+10. mobile QA;
+11. commercial QA;
+12. blank + sample;
+13. packaging;
+14. listing;
+15. store/checkout test;
+16. publication.
+
+Только после фактического завершения всех обязательных release gates P1 считается выпущенным.
+
+## STEP 2 — Freelancer Command Center
+
+После P1 повторяем ту же производственную систему F0–F18, адаптируя архитектуру под фрилансеров:
+- clients;
+- projects;
+- hours/rates;
+- invoices;
+- payments;
+- expenses;
+- income/profit organization;
+- unpaid invoices;
+- dashboard;
+- monthly/yearly review.
+
+## STEP 3 — Small Business Command Center
+
+После P2:
+- income/expenses;
+- clients;
+- invoices;
+- projects;
+- payments;
+- cash flow;
+- business review;
+- tax-preparation organization checklist без налогового консультирования.
+
+## STEP 4 — Job Search Command Center
+
+После P3:
+- companies;
+- positions;
+- applications;
+- interviews;
+- contacts;
+- follow-ups;
+- salary field;
+- preparation;
+- statistics;
+- dashboard;
+- review.
+
+## STEP 5 — Goal & Habit Command Center
+
+После P4:
+- goals;
+- milestones;
+- habits;
+- daily/weekly tracking;
+- 90-day planning;
+- monthly review;
+- printable version.
+
+## STEP 6 — Home Management Command Center
+
+После P5:
+- home tasks;
+- maintenance;
+- cleaning;
+- inventory;
+- important documents index;
+- recurring household tasks;
+- annual review;
+- dashboard;
+- printable version.
+
+## STEP 7 — AI Productivity Prompt Pack
+
+После основных Command Centers:
+- planning;
+- learning;
+- writing;
+- research;
+- meetings;
+- email;
+- decision organization;
+- weekly review;
+- goal planning;
+- personal organization.
+
+## STEP 8 — Product Families
+
+Когда накопится несколько качественных самостоятельных продуктов:
+- Money Collection;
+- Productivity Collection;
+- Work Collection;
+- Home & Life Collection.
+
+Каждая коллекция может содержать основной Command Center и несколько узких mini-products.
+
+## STEP 9 — Cross-sell
+
+После появления нескольких опубликованных продуктов:
+- отдельные mini-products предлагают дополнения к Command Centers;
+- связанные продукты объединяются в тематические bundles;
+- не создавать bundle из незавершённых или непроверенных продуктов.
+
+Payhip официально поддерживает bundles и cross-sell, поэтому эту механику можно использовать после появления достаточного каталога. citeturn0search0turn0search9
+
+## STEP 10 — Command Center Bundle
+
+Финальная структура первой линейки:
+- Personal Money;
+- Personal Productivity;
+- Freelancer;
+- Small Business;
+- Job Search;
+- Goals & Habits;
+- Home Management.
+
+После проверки качества отдельных продуктов создаётся общий bundle.
+
+## STEP 11 — Membership — только после каталога
+
+Membership не является ближайшей задачей.
+
+Рассматриваем его только когда уже есть достаточная библиотека продуктов и понятная причина для регулярной оплаты. Payhip поддерживает как membership products, так и recurring bundles. citeturn0search1
+
+## Главное правило фабрики
+
+**Не переходить к следующему большому продукту только потому, что предыдущий создан.**
+
+Переход происходит после:
+- технического QA;
+- mobile QA, если заявляется mobile use;
+- commercial QA;
+- packaging;
+- store/checkout test;
+- публикации.
+
+Цель — построить последовательную линейку качественных цифровых продуктов, а не большое количество сырых файлов.
