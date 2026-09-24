@@ -1,0 +1,22 @@
+# LIFE RESEARCH PROGRESS
+
+Дата: 24.09.2026
+
+| Блок | Назначение | Статус |
+|---|---|---:|
+| LIFE-RESEARCH-01 | Market / competitor baseline | 100% |
+| LIFE-RESEARCH-02 | Review mining / customer pain points | 100% |
+| LIFE-RESEARCH-03 | Feature matrix 20+ products | 0% |
+| LIFE-RESEARCH-04 | Mobile UX comparison | 0% |
+| LIFE-RESEARCH-05 | Onboarding comparison | 0% |
+| LIFE-RESEARCH-06 | AI workflow comparison | 0% |
+| LIFE-RESEARCH-07 | Pricing / offer architecture | 0% |
+| LIFE-RESEARCH-08 | Licensing / rights | 0% |
+| LIFE-RESEARCH-09 | Differentiation | 0% |
+| LIFE-RESEARCH-10 | Final product specification | 0% |
+
+## Checkpoints
+- LIFE-RESEARCH-01: e932f109f1fbbf33c6793e5d560c087c3a0d5f4c
+- LIFE-RESEARCH-02: 99e69f063db162859b68aa6672d1701b1282d578
+
+Правило: следующий блок начинается только после сохранения предыдущего checkpoint.
