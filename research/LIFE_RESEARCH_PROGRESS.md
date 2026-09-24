@@ -9,7 +9,7 @@
 | LIFE-RESEARCH-03 | Feature matrix 20+ products + multilingual architecture | 100% |
 | LIFE-RESEARCH-04 | Mobile UX comparison | 100% |
 | LIFE-RESEARCH-05 | Onboarding comparison | 100% |
-| LIFE-RESEARCH-06 | AI workflow comparison | 0% |
+| LIFE-RESEARCH-06 | AI workflow comparison | 100% |
 | LIFE-RESEARCH-07 | Pricing / offer architecture | 0% |
 | LIFE-RESEARCH-08 | Licensing / rights | 0% |
 | LIFE-RESEARCH-09 | Differentiation | 0% |
@@ -24,3 +24,5 @@
 - LIFE-RESEARCH-04: 2cc27a8b8c4d4be475001651da89a46061d621c6
 
 - LIFE-RESEARCH-05: 2eeac0b7f5ff57ff4e54a5210064059231c135e4
+
+- LIFE-RESEARCH-06: d4f83329341bb33fe574e0a094c8f003c40d0df3
