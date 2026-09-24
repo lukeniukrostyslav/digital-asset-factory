@@ -31,7 +31,7 @@
 
 ### Текущая последовательность
 
-V2.28 premium dashboard → физическая проверка Excel Android **PASS по открытию/работоспособности** → **V2.29 mobile-first visual refinement INTERNAL COMPLETE** → physical Android visual acceptance → controlled visual-layer acceptance → финальные print/Letter настройки → финальный commercial package → store/checkout test → publication.
+V2.28 premium dashboard → физическая проверка Excel Android **PASS по открытию/работоспособности** → **V2.29 mobile-first visual refinement INTERNAL COMPLETE** → физическая Android visual acceptance **NOT PASS / требуется доработка листов** → controlled visual-layer acceptance → финальные print/Letter настройки → финальный commercial package → store/checkout test → publication.
 
 ### Release Gate
 
