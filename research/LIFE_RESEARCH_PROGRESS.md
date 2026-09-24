@@ -13,7 +13,7 @@
 | LIFE-RESEARCH-07 | Pricing / offer architecture | 0% |
 | LIFE-RESEARCH-08 | Licensing / rights | 0% |
 | LIFE-RESEARCH-09 | Differentiation | 100% |
-| LIFE-RESEARCH-10 | Final product specification | 0% |
+| LIFE-RESEARCH-10 | Final product specification | 100% |
 
 ## Checkpoints
 - LIFE-RESEARCH-01: e932f109f1fbbf33c6793e5d560c087c3a0d5f4c
@@ -32,3 +32,5 @@
 - LIFE-RESEARCH-08: 3286b67ec338c1fa6a89e9c0d51d996590e0324d
 
 - LIFE-RESEARCH-09: dabc96ff000c6be0f2d17c27950f566cd1f9c3cf
+
+- LIFE-RESEARCH-10: 556040b90712422675da13baeca68f0744b87463
