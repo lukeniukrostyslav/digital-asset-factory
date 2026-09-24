@@ -44,3 +44,20 @@ The RU Upcoming view/data-source relationship still needs technical reconciliati
 - B29 Final Release Gate: 75% — remains blocked until the remaining cross-language/data-source checks are closed.
 
 This document records evidence only; it does not mark the final release as accepted.
+
+
+## Additional RU Android evidence — 2026-09-24
+
+New real-device screenshots confirm:
+- RU root page `🇷🇺 Personal Life Command Center — RU` opens on Android.
+- RU localized navigation is rendered in Russian: Главная, Сегодня, Быстрая запись, Быстрый старт, Хаб AI-ассистента, Языковой хаб, Сферы жизни, Цели, Проекты, Задачи, Привычки, Обзоры, Быстрые записи, Заметки.
+- RU Goals section visibly contains `QA Goal — RU`.
+- RU Projects section visibly contains `QA Project — RU`.
+- RU Tasks sections visibly contain `QA Task — RU`.
+- The current RU task list visibly shows `QA Task — RU` with status `К выполнению`, due date September 25, 2026, and priority `Высокий`.
+
+This strengthens physical Android evidence for the RU localized edition. The screenshot set still does not show the RU Upcoming view itself, so the previously recorded RU Upcoming data-source mismatch remains open.
+
+Updated assessment:
+- B27 Android QA: 75% — EN and RU now have direct real-device evidence; all five editions are not yet physically verified.
+- B28 E2E Workflow QA: remains 70% strict until RU Upcoming/view-source reconciliation is closed.
