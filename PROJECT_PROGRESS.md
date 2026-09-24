@@ -13,9 +13,9 @@
 | **A4** | Product Creation — создание материалов продукта | **100%** |
 | **A5** | Spreadsheet — Excel/Sheets система | **100%** |
 | **A6** | PDF — printable/digital версия | **95%** |
-| **A7** | Design — профессиональный визуальный дизайн | **97%** |
+| **A7** | Design — профессиональный визуальный дизайн | **98%** |
 | **A8** | Packaging — финальная упаковка | **88%** |
-| **A9** | QA — техническая, визуальная и содержательная проверка | **91%** |
+| **A9** | QA — техническая, визуальная и содержательная проверка | **92%** |
 | **A10** | Store Setup — настройка канала продаж | **20%** |
 | **A11** | Listing — title, description, keywords, previews, FAQ | **55%** |
 | **A12** | Publication — фактическая публикация | **0%** |
@@ -31,7 +31,7 @@
 
 ### Текущая последовательность
 
-V2.28 premium dashboard → физическая проверка Excel Android **PASS по открытию/работоспособности** → V2.29 mobile-first visual refinement → controlled visual-layer acceptance → финальные print/Letter настройки → финальный commercial package → store/checkout test → publication.
+V2.28 premium dashboard → физическая проверка Excel Android **PASS по открытию/работоспособности** → **V2.29 mobile-first visual refinement INTERNAL COMPLETE** → physical Android visual acceptance → controlled visual-layer acceptance → финальные print/Letter настройки → финальный commercial package → store/checkout test → publication.
 
 ### Release Gate
 
@@ -49,35 +49,46 @@ V2.28 premium dashboard → физическая проверка Excel Android 
 
 ## Последний checkpoint
 
-**V2.28 — PREMIUM DASHBOARD / ANDROID TEST**
+**V2.29 — MOBILE-FIRST DASHBOARD INTERNAL QA**
 
 GitHub checkpoint:
-`production/V2_28_PREMIUM_DASHBOARD_ANDROID_TEST.md`
+`production/V2_29_MOBILE_FIRST_DASHBOARD_INTERNAL_QA.md`
 
 Commit:
-`50f3097b519a3134a881c9883a767e9a957f6629`
+`379fe25b6f17fbd4176abd2fbf0009b464a97b2c`
 
-Локальный Android-test файл:
-`Personal_Money_Command_Center_PREMIUM_V2_28_PREMIUM_ANDROID_TEST.xlsx`
+Internal candidate:
+`Personal_Money_Command_Center_PREMIUM_V2_29_MOBILE_FIRST_INTERNAL.xlsx`
 
-SHA-256:
-`ba39f91827e16758b0d4a7449c62e400f522a6b8139aa6996a32ef77ca910c1c`
+### V2.29 фактически выполнено
 
-### V2.28 фактически выполнено
-
-- Dashboard переразложен в A:H.
-- Убран главный визуальный дефект V2.27 со смещением dashboard далеко вправо.
-- Добавлены крупный title/header и period/language controls.
-- KPI организованы в 8 визуальных карточек.
-- Добавлен Monthly Review блок.
-- Сохранён Android-safe language dropdown.
-- Выполнен LibreOffice round-trip.
+- Dashboard переразложен в мобильную 2-колоночную структуру.
+- Добавлены Financial Snapshot, Monthly Review и Key Insight.
+- 8 KPI переведены в 2 × 4 mobile-first card grid.
+- Увеличена визуальная площадь KPI.
+- Сохранён Android-safe selector H3 с backend mirror J2.
+- Добавлены локализованные строки для новых секций и Key Insight.
+- Print area: A1:H18.
+- Letter / landscape / fit-to-width.
+- Freeze panes A4.
+- LibreOffice round-trip выполнен.
+- 15 sheets сохранены.
+- Formula count: 334.
 - Formula error literals: 0.
 - External links: 0.
-- Macros/VBA: 0.
-- OOXML extLst: 0 после очистки LibreOffice extension.
-- Sample cached metrics сохранены: Income 3000, Expenses 2000, Net Cash Flow 1000, Savings Rate 33.33%, Debt 1200, Savings 500, Net Worth 1800, Budget Remaining 0.
-- Physical Android acceptance пока не засчитан.
+- VBA/macros: 0.
+- OOXML extLst очищен после round-trip.
+- Cached sample metrics: Income 3000, Expenses 2000, Net Cash Flow 1000, Savings Rate 33.33%, Debt 1200, Savings 500, Net Worth 1800, Budget Remaining 0.
+- Monthly Review: Bills 900, Unpaid 0, Top category Housing, Accounts 2300.
+- Key Insight: Positive cash flow this month.
+
+### Что ещё НЕ засчитано
+
+- Physical Android visual acceptance V2.29 — **0% / не пройден**.
+- Финальный Print/Letter QA — не завершён.
+- Blank + Sample final QA — не завершён.
+- Final commercial ZIP — не создан.
+- Store / checkout / publication — не выполнены.
 
 ## Важное правило
 
