@@ -9,6 +9,7 @@ Page: https://app.notion.com/p/3e529a2f45ae81129a24cc325fdcaa6f
 - ONE THING focus callout
 - Two-column Quick Actions layout
 - Native callouts for action areas
+- Quick Action labels converted to real clickable Notion links for Быстрая запись / Цели / Проекты / Задачи / Календарь / AI-ассистент
 - Today / Progress / Projects / Upcoming / Notes / Habits sections
 - Inline linked data-source blocks added where supported
 - Russian navigation preserved
@@ -32,7 +33,8 @@ Important: the reference image is treated as a design target, not as proof of cu
 - RU root page fetched successfully after the latest structural edits.
 - New RU Premium linked views were created successfully.
 - Existing child pages/databases remain present.
-- Latest physical Android screenshot after these changes is still pending.
+- Android screenshot confirmed the Quick Action callouts were visible but their labels were not clickable; this was corrected with real Notion links.
+- Latest physical Android screenshot after the link fix is still pending.
 
 ## Progress
 BUILD-13.3: 70%
