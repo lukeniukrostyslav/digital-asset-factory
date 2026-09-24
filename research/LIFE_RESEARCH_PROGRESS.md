@@ -12,7 +12,7 @@
 | LIFE-RESEARCH-06 | AI workflow comparison | 100% |
 | LIFE-RESEARCH-07 | Pricing / offer architecture | 0% |
 | LIFE-RESEARCH-08 | Licensing / rights | 0% |
-| LIFE-RESEARCH-09 | Differentiation | 0% |
+| LIFE-RESEARCH-09 | Differentiation | 100% |
 | LIFE-RESEARCH-10 | Final product specification | 0% |
 
 ## Checkpoints
@@ -30,3 +30,5 @@
 - LIFE-RESEARCH-07: f23e7cd69f81c56783ef40f83fab31159738168f
 
 - LIFE-RESEARCH-08: 3286b67ec338c1fa6a89e9c0d51d996590e0324d
+
+- LIFE-RESEARCH-09: dabc96ff000c6be0f2d17c27950f566cd1f9c3cf
