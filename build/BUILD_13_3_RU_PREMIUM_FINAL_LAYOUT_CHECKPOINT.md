@@ -5,30 +5,34 @@ Date: 2026-09-24
 ## Implemented on the real RU Notion root page
 Page: https://app.notion.com/p/3e529a2f45ae81129a24cc325fdcaa6f
 
-- Premium Russian hierarchy
+- Premium Russian hierarchy rebuilt using native Notion blocks
 - ONE THING focus callout
-- Quick Actions
-- Today section
-- Goals/Progress section
-- Projects section
-- Upcoming section
-- Notes section
-- Russian navigation
-- 👑 page icon
-- external cover image
-- existing database pages preserved
+- Two-column Quick Actions layout
+- Native callouts for action areas
+- Today / Progress / Projects / Upcoming / Notes / Habits sections
+- Inline linked data-source blocks added where supported
+- Russian navigation preserved
+- 👑 page icon preserved
+- external cover image preserved
+- existing child pages and full-page databases preserved
 
-## New linked views
-- Сегодня — RU: view://3e529a2f-45ae-8124-9145-000c97b64582
-- Карточки приоритета — RU: view://3e529a2f-45ae-8158-af91-000cd1cf914e
-- Прогресс целей — RU: view://3e529a2f-45ae-8193-af05-000c8578ab91
-- Прогресс проектов — RU: view://3e529a2f-45ae-810d-9efb-000c8115ed61
-- Предстоящие — RU: view://3e529a2f-45ae-8147-b132-000c4a0e5a5b
+## RU Premium linked views
+- Сегодня — RU Premium: view://3e529a2f-45ae-81e3-9d6b-000c0cb57d23
+- Цели — RU Premium: view://3e529a2f-45ae-81f3-8628-000cdca1f63e
+- Проекты — RU Premium: view://3e529a2f-45ae-8174-9f66-000cc21abbce
+- Предстоящие — RU Premium: view://3e529a2f-45ae-813e-9615-000c220c399a
+- Заметки — RU Premium: view://3e529a2f-45ae-8178-9b89-000cef436b39
+
+## Android visual reference
+User provided a real Android screenshot of the previous RU root state and requested implementation of the premium dashboard direction shown in the reference.
+
+Important: the reference image is treated as a design target, not as proof of current Notion rendering. The current implementation uses native Notion columns, callouts, linked databases and views.
 
 ## Verification
-Root page and all five new views were fetched successfully after implementation.
-
-Physical Android visual QA remains pending.
+- RU root page fetched successfully after the latest structural edits.
+- New RU Premium linked views were created successfully.
+- Existing child pages/databases remain present.
+- Latest physical Android screenshot after these changes is still pending.
 
 ## Progress
 BUILD-13.3: 70%
