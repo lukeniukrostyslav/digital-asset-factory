@@ -7,7 +7,7 @@
 | LIFE-RESEARCH-01 | Market / competitor baseline | 100% |
 | LIFE-RESEARCH-02 | Review mining / customer pain points | 100% |
 | LIFE-RESEARCH-03 | Feature matrix 20+ products + multilingual architecture | 100% |
-| LIFE-RESEARCH-04 | Mobile UX comparison | 0% |
+| LIFE-RESEARCH-04 | Mobile UX comparison | 100% |
 | LIFE-RESEARCH-05 | Onboarding comparison | 0% |
 | LIFE-RESEARCH-06 | AI workflow comparison | 0% |
 | LIFE-RESEARCH-07 | Pricing / offer architecture | 0% |
@@ -20,3 +20,5 @@
 - LIFE-RESEARCH-02: 99e69f063db162859b68aa6672d1701b1282d578
 
 Правило: следующий блок начинается только после сохранения предыдущего checkpoint.
+
+- LIFE-RESEARCH-04: 2cc27a8b8c4d4be475001651da89a46061d621c6
