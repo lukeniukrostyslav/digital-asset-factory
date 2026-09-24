@@ -6,7 +6,7 @@
 |---|---|---:|
 | LIFE-RESEARCH-01 | Market / competitor baseline | 100% |
 | LIFE-RESEARCH-02 | Review mining / customer pain points | 100% |
-| LIFE-RESEARCH-03 | Feature matrix 20+ products | 0% |
+| LIFE-RESEARCH-03 | Feature matrix 20+ products + multilingual architecture | 100% |
 | LIFE-RESEARCH-04 | Mobile UX comparison | 0% |
 | LIFE-RESEARCH-05 | Onboarding comparison | 0% |
 | LIFE-RESEARCH-06 | AI workflow comparison | 0% |
